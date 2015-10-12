@@ -1,0 +1,308 @@
+[Mon Oct 12 22:32:59 2015 - debug] Called w3afCore.start()
+[Mon Oct 12 22:32:59 2015 - debug] Enabling _dns_cache()
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ] plugins
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     audit xss
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     back
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ] plugins
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     output text_file, console
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     output config text_file
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set verbose True
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set output_file output-w3af.txt
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set http_output_file output-w3af-http.txt
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         back
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     output config console
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set verbose False
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         back
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     back
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ] plugins
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     crawl web_spider
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     crawl config web_spider
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set only_forward True
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set follow_regex http://bellog.org/bamboo/*
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set ignore_regex .*logout.*
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         back
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     back
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ] plugins
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     auth detailed
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     auth config detailed
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set username a@a.com
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set password s
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set username_field username
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set password_field password
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set auth_url http://bellog.org/bamboo/index.php/login
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set check_url http://bellog.org/bamboo/index.php
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set check_string logout
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set data_format %u=%U&%p=%P
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set follow_redirects True
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set method POST
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         set url_encode_params True
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]         back
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     back
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ] target
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     set target http://bellog.org/bamboo/index.php
+[ Mon Oct 12 22:32:59 2015 - Enabled plugins ]     back
+[Mon Oct 12 22:33:01 2015 - debug] DNS response from DNS server for domain: bellog.org
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=1,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=2,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=3,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=4,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=5,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=6,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=7,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=8,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=9,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=10,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=11,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=12,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=13,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=14,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=15,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=16,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=17,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=18,from_cache=0,grep=0)
+[Mon Oct 12 22:33:01 2015 - debug] User "a@a.com" is NOT logged into the application
+[Mon Oct 12 22:33:01 2015 - debug] Logging into the application using a@a.com/s
+[Mon Oct 12 22:33:01 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=a@a.com&password=s" returned HTTP code "302" (id=19,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] auth.detailed was redirected to URL: "http://bellog.org/bamboo/index.php/login/login_fail"
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php/login/login_fail returned HTTP code "200" (id=20,from_cache=0,grep=1)
+[Mon Oct 12 22:33:01 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=21,from_cache=0,grep=0)
+[Mon Oct 12 22:33:01 2015 - debug] User "a@a.com" is NOT logged into the application
+[Mon Oct 12 22:33:01 2015 - error] Can't login into web application as a@a.com/s
+[Mon Oct 12 22:33:01 2015 - debug] Called _setup_audit()
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=22,from_cache=1,grep=1)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/1H7uUuWc.cgi returned HTTP code "404" (id=23,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/KU6rfLR8.jsp returned HTTP code "404" (id=24,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/Ba7xMF4f.do returned HTTP code "404" (id=25,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/yGwNIAH7.asp returned HTTP code "404" (id=26,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/XCArqUiK.htm returned HTTP code "404" (id=27,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/GV6vJCor.gif returned HTTP code "404" (id=29,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/lGpVahGq.py returned HTTP code "404" (id=28,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/flrSKdFg.htmls returned HTTP code "404" (id=31,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/GUqYeTSU.aspx returned HTTP code "404" (id=30,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/KJec29Fg.foobar returned HTTP code "404" (id=32,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/0T9mYzRh.pl returned HTTP code "404" (id=33,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/5wFqGJIQ.xhtml returned HTTP code "404" (id=35,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/lrfxNJtg.php returned HTTP code "404" (id=34,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/1ZZI2NQn.rb returned HTTP code "404" (id=36,from_cache=0,grep=0)
+[Mon Oct 12 22:33:02 2015 - debug] The 404 body result database has a length of 1.
+[Mon Oct 12 22:33:02 2015 - debug] "http://bellog.org/bamboo/index.php" (id:22) is NOT a 404 [similarity_index < 0.75 with sample path in 404 DB].
+[Mon Oct 12 22:33:02 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=37,from_cache=1,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=38,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] xss plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php"
+[Mon Oct 12 22:33:03 2015 - debug] Starting plugin: audit.xss
+[Mon Oct 12 22:33:03 2015 - debug] Created 0 mutants for "Method: GET | http://bellog.org/bamboo/index.php" ()
+[Mon Oct 12 22:33:03 2015 - debug] web_spider plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php"
+[Mon Oct 12 22:33:03 2015 - debug] Called _discover_worker(web_spider,http://bellog.org/bamboo/index.php)
+[Mon Oct 12 22:33:03 2015 - debug] Starting plugin: crawl.web_spider
+[Mon Oct 12 22:33:03 2015 - debug] web_spider is testing "http://bellog.org/bamboo/index.php"
+[Mon Oct 12 22:33:03 2015 - debug] [web_spider] Crawling "http://bellog.org/bamboo/index.php"
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=39,from_cache=1,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php/login returned HTTP code "200" (id=40,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php/olign returned HTTP code "404" (id=41,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] "http://bellog.org/bamboo/index.php/login" (id:40) is NOT a 404 [similarity_index < 0.9].
+[Mon Oct 12 22:33:03 2015 - debug] [web_spider] Sending link to w3af core: "http://bellog.org/bamboo/index.php/login"
+[Mon Oct 12 22:33:03 2015 - debug] New fuzzable request identified: "Method: GET | http://bellog.org/bamboo/index.php/login"
+[Mon Oct 12 22:33:03 2015 - information] New URL found by web_spider plugin: "http://bellog.org/bamboo/index.php/login"
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php/login returned HTTP code "200" (id=42,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] xss plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/login"
+[Mon Oct 12 22:33:03 2015 - debug] Starting plugin: audit.xss
+[Mon Oct 12 22:33:03 2015 - debug] Created 0 mutants for "Method: GET | http://bellog.org/bamboo/index.php/login" ()
+[Mon Oct 12 22:33:03 2015 - debug] web_spider plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/login"
+[Mon Oct 12 22:33:03 2015 - debug] Called _discover_worker(web_spider,http://bellog.org/bamboo/index.php/login)
+[Mon Oct 12 22:33:03 2015 - debug] Starting plugin: crawl.web_spider
+[Mon Oct 12 22:33:03 2015 - debug] web_spider is testing "http://bellog.org/bamboo/index.php/login"
+[Mon Oct 12 22:33:03 2015 - debug] [web_spider] Crawling "http://bellog.org/bamboo/index.php/login"
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php/login returned HTTP code "200" (id=43,from_cache=1,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php/ returned HTTP code "302" (id=44,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] [web_spider] Sending link to w3af core: "http://bellog.org/bamboo/index.php/"
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=45,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] [web_spider] Sending link to w3af core: "http://bellog.org/bamboo/index.php"
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php/login/forgot_password returned HTTP code "200" (id=46,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php/donate returned HTTP code "200" (id=47,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] [web_spider] Sending link to w3af core: "http://bellog.org/bamboo/index.php/donate"
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php/login/ofgrto_psawsrod returned HTTP code "404" (id=48,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] "http://bellog.org/bamboo/index.php/login/forgot_password" (id:46) is NOT a 404 [similarity_index < 0.9].
+[Mon Oct 12 22:33:03 2015 - debug] [web_spider] Sending link to w3af core: "http://bellog.org/bamboo/index.php/login/forgot_password"
+[Mon Oct 12 22:33:03 2015 - debug] New fuzzable request identified: "Method: POST | http://bellog.org/bamboo/index.php/login | URL encoded form: (username, password, login)"
+[Mon Oct 12 22:33:03 2015 - debug] New fuzzable request identified: "Method: GET | http://bellog.org/bamboo/index.php/"
+[Mon Oct 12 22:33:03 2015 - information] New URL found by web_spider plugin: "http://bellog.org/bamboo/index.php/"
+[Mon Oct 12 22:33:03 2015 - debug] New fuzzable request identified: "Method: GET | http://bellog.org/bamboo/index.php"
+[Mon Oct 12 22:33:03 2015 - information] New URL found by web_spider plugin: "http://bellog.org/bamboo/index.php"
+[Mon Oct 12 22:33:03 2015 - debug] New fuzzable request identified: "Method: GET | http://bellog.org/bamboo/index.php/donate"
+[Mon Oct 12 22:33:03 2015 - information] New URL found by web_spider plugin: "http://bellog.org/bamboo/index.php/donate"
+[Mon Oct 12 22:33:03 2015 - debug] New fuzzable request identified: "Method: GET | http://bellog.org/bamboo/index.php/login/forgot_password"
+[Mon Oct 12 22:33:03 2015 - information] New URL found by web_spider plugin: "http://bellog.org/bamboo/index.php/login/forgot_password"
+[Mon Oct 12 22:33:03 2015 - debug] web_spider plugin is testing: "Method: POST | http://bellog.org/bamboo/index.php/login | URL encoded form: (username, password, login)"
+[Mon Oct 12 22:33:03 2015 - debug] Called _discover_worker(web_spider,http://bellog.org/bamboo/index.php/login)
+[Mon Oct 12 22:33:03 2015 - debug] Starting plugin: crawl.web_spider
+[Mon Oct 12 22:33:03 2015 - debug] web_spider is testing "http://bellog.org/bamboo/index.php/login"
+[Mon Oct 12 22:33:03 2015 - debug] [web_spider] Crawling "http://bellog.org/bamboo/index.php/login"
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=&login=Login&password=" returned HTTP code "200" (id=49,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] xss plugin is testing: "Method: POST | http://bellog.org/bamboo/index.php/login | URL encoded form: (username, password, login)"
+[Mon Oct 12 22:33:03 2015 - debug] Starting plugin: audit.xss
+[Mon Oct 12 22:33:03 2015 - debug] Created 3 mutants for "Method: POST | http://bellog.org/bamboo/index.php/login | URL encoded form: (username, password, login)" (post data: 3)
+[Mon Oct 12 22:33:03 2015 - debug] Updating socket timeout for bellog.org from 6 to 0.524655731357 seconds
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=Login&password=FrAmE30." returned HTTP code "302" (id=50,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php/login/login_fail returned HTTP code "200" (id=51,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] [web_spider] Sending link to w3af core: "http://bellog.org/bamboo/index.php/login/login_fail"
+[Mon Oct 12 22:33:03 2015 - debug] New fuzzable request identified: "Method: GET | http://bellog.org/bamboo/index.php/login/login_fail"
+[Mon Oct 12 22:33:03 2015 - information] New URL found by web_spider plugin: "http://bellog.org/bamboo/index.php/login/login_fail"
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=bw3dg</->bw3dg/*bw3dg"bw3dgbw3dg'bw3dgbw3dg`bw3dgbw3dg =&login=Log..." returned HTTP code "302" (id=52,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] Created 6 mutants for "Method: POST | http://bellog.org/bamboo/index.php/login | URL encoded form: (username, password, login)" (post data: 6)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=mlq4j/*&login=Login&password=FrAmE30." returned HTTP code "302" (id=53,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=6jwjl'6jwjl&login=Login&password=FrAmE30." returned HTTP code "302" (id=54,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=pinox`pinox&login=Login&password=FrAmE30." returned HTTP code "302" (id=55,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=bpmnc"bpmnc&login=Login&password=FrAmE30." returned HTTP code "302" (id=56,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=tdcyg</->&login=Login&password=FrAmE30." returned HTTP code "302" (id=57,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=jj2h1 =&login=Login&password=FrAmE30." returned HTTP code "302" (id=58,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=Login&password=zbj0r</->zbj0r/*zbj0r"zbj0rzbj0r'zbj..." returned HTTP code "302" (id=59,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] Created 6 mutants for "Method: POST | http://bellog.org/bamboo/index.php/login | URL encoded form: (username, password, login)" (post data: 6)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=Login&password=l5avl`l5avl" returned HTTP code "302" (id=60,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=Login&password=bzmsq/*" returned HTTP code "302" (id=61,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=Login&password=9gjlt</->" returned HTTP code "302" (id=62,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=Login&password=6uujn =" returned HTTP code "302" (id=63,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=Login&password=lrfle"lrfle" returned HTTP code "302" (id=64,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=Login&password=wk98j'wk98j" returned HTTP code "302" (id=65,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=rjmgq</->rjmgq/*rjmgq"rjmgqrjmgq'rjmgqrjmgq`rjmgqrj..." returned HTTP code "302" (id=66,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] Created 6 mutants for "Method: POST | http://bellog.org/bamboo/index.php/login | URL encoded form: (username, password, login)" (post data: 6)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=y8gng</->&password=FrAmE30." returned HTTP code "302" (id=67,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=po4iq"po4iq&password=FrAmE30." returned HTTP code "302" (id=68,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=517qg/*&password=FrAmE30." returned HTTP code "302" (id=69,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=2o7b3'2o7b3&password=FrAmE30." returned HTTP code "302" (id=70,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=us8ff =&password=FrAmE30." returned HTTP code "302" (id=71,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] web_spider plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/"
+[Mon Oct 12 22:33:03 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=John8212&login=j2duo`j2duo&password=FrAmE30." returned HTTP code "302" (id=72,from_cache=0,grep=1)
+[Mon Oct 12 22:33:03 2015 - debug] Called _discover_worker(web_spider,http://bellog.org/bamboo/index.php/)
+[Mon Oct 12 22:33:03 2015 - debug] Starting plugin: crawl.web_spider
+[Mon Oct 12 22:33:03 2015 - debug] web_spider is testing "http://bellog.org/bamboo/index.php/"
+[Mon Oct 12 22:33:03 2015 - debug] [web_spider] Crawling "http://bellog.org/bamboo/index.php/"
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php/ returned HTTP code "302" (id=73,from_cache=0,grep=0)
+[Mon Oct 12 22:33:03 2015 - debug] xss plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/"
+[Mon Oct 12 22:33:03 2015 - debug] Starting plugin: audit.xss
+[Mon Oct 12 22:33:03 2015 - debug] Created 0 mutants for "Method: GET | http://bellog.org/bamboo/index.php/" ()
+[Mon Oct 12 22:33:03 2015 - debug] GET http://bellog.org/bamboo/index.php/ returned HTTP code "302" (id=74,from_cache=0,grep=1)
+[Mon Oct 12 22:33:04 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=75,from_cache=0,grep=0)
+[Mon Oct 12 22:33:04 2015 - debug] xss plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php"
+[Mon Oct 12 22:33:04 2015 - debug] Starting plugin: audit.xss
+[Mon Oct 12 22:33:04 2015 - debug] Created 0 mutants for "Method: GET | http://bellog.org/bamboo/index.php" ()
+[Mon Oct 12 22:33:04 2015 - debug] web_spider plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php"
+[Mon Oct 12 22:33:04 2015 - debug] Called _discover_worker(web_spider,http://bellog.org/bamboo/index.php)
+[Mon Oct 12 22:33:04 2015 - debug] Starting plugin: crawl.web_spider
+[Mon Oct 12 22:33:04 2015 - debug] web_spider is testing "http://bellog.org/bamboo/index.php"
+[Mon Oct 12 22:33:04 2015 - debug] [web_spider] Crawling "http://bellog.org/bamboo/index.php"
+[Mon Oct 12 22:33:04 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=76,from_cache=1,grep=1)
+[Mon Oct 12 22:33:04 2015 - debug] GET http://bellog.org/bamboo/index.php/donate returned HTTP code "200" (id=77,from_cache=0,grep=0)
+[Mon Oct 12 22:33:04 2015 - debug] xss plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/donate"
+[Mon Oct 12 22:33:04 2015 - debug] Starting plugin: audit.xss
+[Mon Oct 12 22:33:04 2015 - debug] Created 0 mutants for "Method: GET | http://bellog.org/bamboo/index.php/donate" ()
+[Mon Oct 12 22:33:04 2015 - debug] web_spider plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/donate"
+[Mon Oct 12 22:33:04 2015 - debug] Called _discover_worker(web_spider,http://bellog.org/bamboo/index.php/donate)
+[Mon Oct 12 22:33:04 2015 - debug] Starting plugin: crawl.web_spider
+[Mon Oct 12 22:33:04 2015 - debug] web_spider is testing "http://bellog.org/bamboo/index.php/donate"
+[Mon Oct 12 22:33:04 2015 - debug] [web_spider] Crawling "http://bellog.org/bamboo/index.php/donate"
+[Mon Oct 12 22:33:04 2015 - debug] GET http://bellog.org/bamboo/index.php/donate returned HTTP code "200" (id=78,from_cache=1,grep=1)
+[Mon Oct 12 22:33:04 2015 - debug] Ignoring URL "mailto:info@bambooinvoice.org" as it generated an invalid URL.
+[Mon Oct 12 22:33:05 2015 - debug] GET http://bellog.org/bamboo/index.php/login/forgot_password returned HTTP code "200" (id=79,from_cache=0,grep=0)
+[Mon Oct 12 22:33:05 2015 - debug] xss plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/login/forgot_password"
+[Mon Oct 12 22:33:05 2015 - debug] Starting plugin: audit.xss
+[Mon Oct 12 22:33:05 2015 - debug] Created 0 mutants for "Method: GET | http://bellog.org/bamboo/index.php/login/forgot_password" ()
+[Mon Oct 12 22:33:05 2015 - debug] web_spider plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/login/forgot_password"
+[Mon Oct 12 22:33:05 2015 - debug] Called _discover_worker(web_spider,http://bellog.org/bamboo/index.php/login/forgot_password)
+[Mon Oct 12 22:33:05 2015 - debug] Starting plugin: crawl.web_spider
+[Mon Oct 12 22:33:05 2015 - debug] web_spider is testing "http://bellog.org/bamboo/index.php/login/forgot_password"
+[Mon Oct 12 22:33:05 2015 - debug] [web_spider] Crawling "http://bellog.org/bamboo/index.php/login/forgot_password"
+[Mon Oct 12 22:33:05 2015 - debug] GET http://bellog.org/bamboo/index.php/login/forgot_password returned HTTP code "200" (id=80,from_cache=1,grep=1)
+[Mon Oct 12 22:33:05 2015 - debug] GET http://bellog.org/bamboo/index.php/login/ returned HTTP code "200" (id=81,from_cache=0,grep=0)
+[Mon Oct 12 22:33:05 2015 - debug] [web_spider] Sending link to w3af core: "http://bellog.org/bamboo/index.php/login/"
+[Mon Oct 12 22:33:05 2015 - debug] New fuzzable request identified: "Method: POST | http://bellog.org/bamboo/index.php/login/forgot_password | URL encoded form: (email, login)"
+[Mon Oct 12 22:33:05 2015 - debug] New fuzzable request identified: "Method: GET | http://bellog.org/bamboo/index.php/login/"
+[Mon Oct 12 22:33:05 2015 - information] New URL found by web_spider plugin: "http://bellog.org/bamboo/index.php/login/"
+[Mon Oct 12 22:33:05 2015 - debug] GET http://bellog.org/bamboo/index.php/login/login_fail returned HTTP code "200" (id=82,from_cache=0,grep=0)
+[Mon Oct 12 22:33:05 2015 - debug] xss plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/login/login_fail"
+[Mon Oct 12 22:33:05 2015 - debug] Starting plugin: audit.xss
+[Mon Oct 12 22:33:05 2015 - debug] Created 0 mutants for "Method: GET | http://bellog.org/bamboo/index.php/login/login_fail" ()
+[Mon Oct 12 22:33:05 2015 - debug] web_spider plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/login/login_fail"
+[Mon Oct 12 22:33:05 2015 - debug] Called _discover_worker(web_spider,http://bellog.org/bamboo/index.php/login/login_fail)
+[Mon Oct 12 22:33:05 2015 - debug] Starting plugin: crawl.web_spider
+[Mon Oct 12 22:33:05 2015 - debug] web_spider is testing "http://bellog.org/bamboo/index.php/login/login_fail"
+[Mon Oct 12 22:33:05 2015 - debug] [web_spider] Crawling "http://bellog.org/bamboo/index.php/login/login_fail"
+[Mon Oct 12 22:33:05 2015 - debug] GET http://bellog.org/bamboo/index.php/login/login_fail returned HTTP code "200" (id=83,from_cache=1,grep=1)
+[Mon Oct 12 22:33:05 2015 - debug] Ignoring reference "http://bellog.org/bamboo/index.php/login" (it is simply a variant).
+[Mon Oct 12 22:33:05 2015 - debug] web_spider plugin is testing: "Method: POST | http://bellog.org/bamboo/index.php/login/forgot_password | URL encoded form: (email, login)"
+[Mon Oct 12 22:33:05 2015 - debug] Called _discover_worker(web_spider,http://bellog.org/bamboo/index.php/login/forgot_password)
+[Mon Oct 12 22:33:05 2015 - debug] Starting plugin: crawl.web_spider
+[Mon Oct 12 22:33:05 2015 - debug] web_spider is testing "http://bellog.org/bamboo/index.php/login/forgot_password"
+[Mon Oct 12 22:33:05 2015 - debug] [web_spider] Crawling "http://bellog.org/bamboo/index.php/login/forgot_password"
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=Send password&email=" returned HTTP code "200" (id=84,from_cache=0,grep=0)
+[Mon Oct 12 22:33:06 2015 - debug] xss plugin is testing: "Method: POST | http://bellog.org/bamboo/index.php/login/forgot_password | URL encoded form: (email, login)"
+[Mon Oct 12 22:33:06 2015 - debug] Starting plugin: audit.xss
+[Mon Oct 12 22:33:06 2015 - debug] Created 2 mutants for "Method: POST | http://bellog.org/bamboo/index.php/login/forgot_password | URL encoded form: (email, login)" (post data: 2)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=Send password&email=w3af@email.com" returned HTTP code "200" (id=85,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=Send password&email=puy5a</->puy5a/*puy5a"puy5apuy5a'puy5apuy5a`puy5a..." returned HTTP code "200" (id=86,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] Created 6 mutants for "Method: POST | http://bellog.org/bamboo/index.php/login/forgot_password | URL encoded form: (email, login)" (post data: 6)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=Send password&email=xzll1/*" returned HTTP code "200" (id=87,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=Send password&email=dtf9g'dtf9g" returned HTTP code "200" (id=88,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=Send password&email=v9szr"v9szr" returned HTTP code "200" (id=89,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=Send password&email=chktf =" returned HTTP code "200" (id=90,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=Send password&email=1h8uq`1h8uq" returned HTTP code "200" (id=91,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=Send password&email=6fmku</->" returned HTTP code "200" (id=92,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=fdyzq</->fdyzq/*fdyzq"fdyzqfdyzq'fdyzqfdyzq`fdyzqfdyzq =&email=w3af@e..." returned HTTP code "200" (id=93,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] Created 6 mutants for "Method: POST | http://bellog.org/bamboo/index.php/login/forgot_password | URL encoded form: (email, login)" (post data: 6)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=bf5kb</->&email=w3af@email.com" returned HTTP code "200" (id=94,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=drxcz"drxcz&email=w3af@email.com" returned HTTP code "200" (id=95,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=gzf4y'gzf4y&email=w3af@email.com" returned HTTP code "200" (id=96,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=23wsy/*&email=w3af@email.com" returned HTTP code "200" (id=97,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=cesbq =&email=w3af@email.com" returned HTTP code "200" (id=98,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=j2vil`j2vil&email=w3af@email.com" returned HTTP code "200" (id=99,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] GET http://bellog.org/bamboo/index.php/login/ returned HTTP code "200" (id=100,from_cache=0,grep=0)
+[Mon Oct 12 22:33:06 2015 - debug] xss plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/login/"
+[Mon Oct 12 22:33:06 2015 - debug] Starting plugin: audit.xss
+[Mon Oct 12 22:33:06 2015 - debug] Created 0 mutants for "Method: GET | http://bellog.org/bamboo/index.php/login/" ()
+[Mon Oct 12 22:33:06 2015 - debug] web_spider plugin is testing: "Method: GET | http://bellog.org/bamboo/index.php/login/"
+[Mon Oct 12 22:33:06 2015 - debug] Called _discover_worker(web_spider,http://bellog.org/bamboo/index.php/login/)
+[Mon Oct 12 22:33:06 2015 - debug] Starting plugin: crawl.web_spider
+[Mon Oct 12 22:33:06 2015 - debug] web_spider is testing "http://bellog.org/bamboo/index.php/login/"
+[Mon Oct 12 22:33:06 2015 - debug] [web_spider] Crawling "http://bellog.org/bamboo/index.php/login/"
+[Mon Oct 12 22:33:06 2015 - debug] Updating socket timeout for bellog.org from 0.524655731357 to 0.35 seconds
+[Mon Oct 12 22:33:06 2015 - debug] GET http://bellog.org/bamboo/index.php/login/ returned HTTP code "200" (id=101,from_cache=1,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] Ignoring reference "http://bellog.org/bamboo/index.php/login" (it is simply a variant).
+[Mon Oct 12 22:33:06 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=102,from_cache=0,grep=0)
+[Mon Oct 12 22:33:06 2015 - debug] User "a@a.com" is NOT logged into the application
+[Mon Oct 12 22:33:06 2015 - debug] Logging into the application using a@a.com/s
+[Mon Oct 12 22:33:06 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=a@a.com&password=s" returned HTTP code "302" (id=103,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] auth.detailed was redirected to URL: "http://bellog.org/bamboo/index.php/login/login_fail"
+[Mon Oct 12 22:33:06 2015 - debug] GET http://bellog.org/bamboo/index.php/login/login_fail returned HTTP code "200" (id=104,from_cache=0,grep=1)
+[Mon Oct 12 22:33:06 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=105,from_cache=0,grep=0)
+[Mon Oct 12 22:33:06 2015 - debug] User "a@a.com" is NOT logged into the application
+[Mon Oct 12 22:33:07 2015 - information] Found 7 URLs and 10 different injections points.
+[Mon Oct 12 22:33:07 2015 - information] The URL list is:
+[Mon Oct 12 22:33:07 2015 - information] - http://bellog.org/bamboo/index.php
+[Mon Oct 12 22:33:07 2015 - information] - http://bellog.org/bamboo/index.php/
+[Mon Oct 12 22:33:07 2015 - information] - http://bellog.org/bamboo/index.php/donate
+[Mon Oct 12 22:33:07 2015 - information] - http://bellog.org/bamboo/index.php/login
+[Mon Oct 12 22:33:07 2015 - information] - http://bellog.org/bamboo/index.php/login/
+[Mon Oct 12 22:33:07 2015 - information] - http://bellog.org/bamboo/index.php/login/forgot_password
+[Mon Oct 12 22:33:07 2015 - information] - http://bellog.org/bamboo/index.php/login/login_fail
+[Mon Oct 12 22:33:07 2015 - information] The list of fuzzable requests is:
+[Mon Oct 12 22:33:07 2015 - information] - Method: GET | http://bellog.org/bamboo/index.php
+[Mon Oct 12 22:33:07 2015 - information] - Method: GET | http://bellog.org/bamboo/index.php
+[Mon Oct 12 22:33:07 2015 - information] - Method: GET | http://bellog.org/bamboo/index.php/
+[Mon Oct 12 22:33:07 2015 - information] - Method: GET | http://bellog.org/bamboo/index.php/donate
+[Mon Oct 12 22:33:07 2015 - information] - Method: GET | http://bellog.org/bamboo/index.php/login
+[Mon Oct 12 22:33:07 2015 - information] - Method: GET | http://bellog.org/bamboo/index.php/login/
+[Mon Oct 12 22:33:07 2015 - information] - Method: GET | http://bellog.org/bamboo/index.php/login/forgot_password
+[Mon Oct 12 22:33:07 2015 - information] - Method: GET | http://bellog.org/bamboo/index.php/login/login_fail
+[Mon Oct 12 22:33:07 2015 - information] - Method: POST | http://bellog.org/bamboo/index.php/login | URL encoded form: (username, password, login)
+[Mon Oct 12 22:33:07 2015 - information] - Method: POST | http://bellog.org/bamboo/index.php/login/forgot_password | URL encoded form: (email, login)
+[Mon Oct 12 22:33:07 2015 - debug] POST http://bellog.org/bamboo/index.php/login with data: "username=&login=Login&password=" returned HTTP code "200" (id=106,from_cache=0,grep=0)
+[Mon Oct 12 22:33:07 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=107,from_cache=0,grep=0)
+[Mon Oct 12 22:33:07 2015 - debug] GET http://bellog.org/bamboo/index.php/ returned HTTP code "302" (id=108,from_cache=0,grep=0)
+[Mon Oct 12 22:33:07 2015 - debug] GET http://bellog.org/bamboo/index.php/login returned HTTP code "200" (id=109,from_cache=0,grep=0)
+[Mon Oct 12 22:33:07 2015 - debug] GET http://bellog.org/bamboo/index.php/donate returned HTTP code "200" (id=110,from_cache=0,grep=0)
+[Mon Oct 12 22:33:07 2015 - debug] GET http://bellog.org/bamboo/index.php returned HTTP code "302" (id=111,from_cache=0,grep=0)
+[Mon Oct 12 22:33:07 2015 - debug] GET http://bellog.org/bamboo/index.php/login/login_fail returned HTTP code "200" (id=112,from_cache=0,grep=0)
+[Mon Oct 12 22:33:07 2015 - debug] GET http://bellog.org/bamboo/index.php/login/forgot_password returned HTTP code "200" (id=113,from_cache=0,grep=0)
+[Mon Oct 12 22:33:07 2015 - debug] POST http://bellog.org/bamboo/index.php/login/forgot_password with data: "login=Send password&email=" returned HTTP code "200" (id=114,from_cache=0,grep=0)
+[Mon Oct 12 22:33:07 2015 - debug] GET http://bellog.org/bamboo/index.php/login/ returned HTTP code "200" (id=115,from_cache=0,grep=0)
+[Mon Oct 12 22:33:07 2015 - information] Scan finished in 8 seconds.
+[Mon Oct 12 22:33:07 2015 - information] Stopping the core...

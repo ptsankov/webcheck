@@ -6,19 +6,15 @@ import subprocess
 import sys
 import os
 from threading import Thread
+from utils import msg, NET_IFACE, HTTP_FILTER, W3AF, PACKET_FILE_EXTENSION
 
-http_filter = 'tcp and port 80'
-interface = 'eth0'
-w3af = '/home/mguarnieri/testing/w3af/w3af/w3af_console'
-
-def msg(msg):
-    print "SCRIPT --> {}".format(msg)
 
 def generate_test(output_filename, test_length):
     assert os.path.isfile(w3af_script)
-    
-    msg('Logging test to: ' + output_filename)
-    requests = sniff(iface=interface, filter=http_filter, count=test_length)   
+    if os.path.isfile(output_filename):
+        msg('The output file {} exists, remove it.'.format(output_filename))
+    msg('Logging test to: {}'.format(output_filename))
+    requests = sniff(iface=NET_IFACE, filter=HTTP_FILTER, count=test_length)   
     wrpcap(output_filename, requests) 
 
 if __name__ == "__main__":
@@ -36,9 +32,9 @@ if __name__ == "__main__":
         sys.exit(-1)
             
     for i in range(0, num_tests):
-        msg('Generating test case '  + str(i))
-        test_filename = "test_" + str(i)
-        cmd = '{} --script={}'.format(w3af, w3af_script)
+        msg('Generating test case {}'.format(i))
+        test_filename = 'test{}.{}'.format(i, PACKET_FILE_EXTENSION)
+        cmd = '{} --script={}'.format(W3AF, w3af_script)
         #cmd = "sleep 2"
         
         Thread(target=generate_test, args=(test_filename, test_length)).start()
