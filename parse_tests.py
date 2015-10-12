@@ -1,8 +1,6 @@
 #!/usr/bin/python
-from scapy.utils import rdpcap, wrpcap
+from scapy.utils import rdpcap
 import sys
-import scapy.layers
-from scapy_http import http
 from scapy.layers.inet import IP, TCP, Ether
 from utils import msg, PACKET_FILE_EXTENSION
 import os
