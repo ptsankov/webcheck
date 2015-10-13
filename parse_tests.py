@@ -8,6 +8,8 @@ import glob
 from scapy_http.http import HTTP, HTTPRequest
 from os.path import commonprefix
 
+MAX_TEST_LENGTH = 30
+
 def packet_filter(packet):
     return False
     if not isinstance(packet[Ether].payload, IP):
@@ -47,23 +49,30 @@ def read_requests(test_file):
             elif 'different injections points' in log_line:
                 continue
             elif 'The URL list is' in log_line:
+                read = True
                 continue
             elif read:
                 request = log_line.split('] - ')[1].split(' ')[0]
                 white_list.append(request)
             else:
-                pass
-                
-    print white_list
+                pass                
                                 
     requests = []
     with open(test_file) as f:
         content = f.readlines()
         for log_line in content:
-            if log_line.startswith('GET') or log_line.startswith('POST'):
-                request = log_line.split(' ')[1]
-                if request in white_list:
-                    requests.append(request)                
+            if not log_line.startswith('GET') and not log_line.startswith('POST'):
+                continue
+            request = log_line.split(' ')[1]                
+            # filter according to the white list
+            if request not in white_list:
+                continue
+            # filter duplicates
+            if len(requests) == 0 or requests[-1] != request: 
+                requests.append(request)
+            # max length
+            if len(requests) == MAX_TEST_LENGTH:
+                return requests                
     return requests
 
 if __name__ == "__main__":
@@ -82,10 +91,11 @@ if __name__ == "__main__":
                   
     
     for test in tests.keys():
-        print '-------------------------------------------------------------------------------------'
-        print test, ':', ', '.join(tests[test])
-        print '-------------------------------------------------------------------------------------'
+        print '---------- {} ----------'.format(test)
+        print '\n'.join(tests[test])
     
+    
+    print '---------- Test / Length / Prefix ----------'
     for test in tests.keys():
         longest_prefix = 0
         for other_test in tests.keys():
