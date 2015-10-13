@@ -1,13 +1,8 @@
 #!/usr/bin/python
 
-from scapy.utils import wrpcap
-from scapy.sendrecv import sniff
-import subprocess
 import sys
-import os
-from threading import Thread
-from utils import msg, NET_IFACE, HTTP_FILTER, W3AF, PACKET_FILE_EXTENSION,\
-    W3AF_HTTP_OUPUT, W3AF_LOG_OUPUT, runcmd, BAMBOO_DB_DUMP
+from utils import msg, W3AF_HTTP_OUPUT, W3AF_LOG_OUPUT, runcmd, BAMBOO_DB_DUMP,\
+    W3AF
 import shutil
 
 '''
