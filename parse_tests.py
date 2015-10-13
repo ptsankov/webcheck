@@ -8,6 +8,7 @@ import glob
 from scapy_http.http import HTTP, HTTPRequest
 
 def packet_filter(packet):
+    return False
     if not isinstance(packet[Ether].payload, IP):
         return True
     if not isinstance(packet[IP].payload, TCP):
