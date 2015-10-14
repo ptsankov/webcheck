@@ -8,7 +8,10 @@ import glob
 from scapy_http.http import HTTP, HTTPRequest
 from os.path import commonprefix
 
-MAX_TEST_LENGTH = 30
+MAX_TEST_LENGTH = 20
+
+FILTER_DUPLICATES = True
+FILTER_NON_PHP = True
 
 def packet_filter(packet):
     return False
@@ -62,14 +65,17 @@ def read_requests(test_file):
         content = f.readlines()
         for log_line in content:
             if not log_line.startswith('GET') and not log_line.startswith('POST'):
-                continue
+                continue            
             request = log_line.split(' ')[1]                
             # filter according to the white list
             if request not in white_list:
                 continue
             # filter duplicates
-            if len(requests) == 0 or requests[-1] != request: 
-                requests.append(request)
+            if FILTER_DUPLICATES and len(requests) != 0 and requests[-1] == request:
+                continue 
+            if FILTER_NON_PHP and request.split('.')[-1] in ['png', 'css', 'gif']:
+                continue
+            requests.append(request)
             # max length
             if len(requests) == MAX_TEST_LENGTH:
                 return requests                
