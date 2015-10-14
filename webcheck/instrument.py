@@ -2,6 +2,8 @@
 import os
 import sys
 import ConfigParser
+from static import INSTRUMENTATION_SECTION, PROXY_SECTION
+
 
 def php_instrumentation(proxy):
     return '''<?php  
@@ -44,7 +46,6 @@ def php_instrumentation(proxy):
             // -------------
             '''
 
-CONFIG_SECTION = 'INSTRUMENTATION'
 
 if __name__ == "__main__":
     
@@ -55,8 +56,11 @@ if __name__ == "__main__":
     config_file = sys.argv[1]        
     config = ConfigParser.ConfigParser()
     config.read(config_file)
-    app_path = config.get(CONFIG_SECTION, 'PATH')
-    proxy = config.get(CONFIG_SECTION, 'PROXY')
+    app_path = config.get(INSTRUMENTATION_SECTION, 'PATH')
+    
+    proxy_ip = config.get(PROXY_SECTION, 'IP')
+    proxy_port = config.getint(PROXY_SECTION, 'PORT')
+    proxy = '{}:{}'.format(proxy_ip, proxy_port)
 
     
         

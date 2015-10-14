@@ -1,4 +1,4 @@
-from scripts.utils import msg
+#!/usr/bin/python
 
 if __name__ == "__main__":
-    msg('Starting WebCheck')
+    pass
