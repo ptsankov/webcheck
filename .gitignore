@@ -2,3 +2,5 @@
 .metadata/
 .project
 .pydevproject
+bamboo-tests
+cuteflow-tests
