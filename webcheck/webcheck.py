@@ -1,12 +1,14 @@
 #!/usr/bin/python
 import sys
-from static import TESTS_SECTION, EXECUTION_SECTION, APPLICATION_SECTION
+from static import TESTS_SECTION, EXECUTION_SECTION, APPLICATION_SECTION, PROXY_SECTION, DATABASE_SECTION
 import ConfigParser
 import glob
 from os import path
 from scipy.weave.ast_tools import remove_duplicates
 import socket
 import requests
+import shlex
+from subprocess import PIPE, Popen
 
 def parse_test_file(file):
     requests = []
@@ -87,12 +89,36 @@ def make_trie(tests):
             cur_node = cur_node[request]
     return trie
 
+def runcmd(cmd, cwd=None):
+    args = shlex.split(cmd)
+    p = Popen(args, stdout=PIPE, stderr=PIPE, cwd=cwd)
+    out, err = p.communicate()
+    if out:
+        print out
+    else:
+        print err
+    return out
 
 def checkpoint(label):
-    print 'checkpoint', label
+    if checkpointing:
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.connect((proxy_ip, proxy_port))
+        sock.sendall('checkpoint:{}'.format(label))
+        print 'Checkpointing', label, sock.recv(2)
+    else:
+        dump_file = 'checkpoint_{}'.format(label)
+        runcmd('mysqldump -u {} -p{} {} > {}'.format(db_username, db_password, db_database, dump_file))
+        
     
 def restore(label):
-    print 'restore', label
+    if checkpointing:
+        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+        sock.connect((proxy_ip, proxy_port))
+        sock.sendall('restore:{}'.format(label))
+        print 'Restoring', label, sock.recv(2)
+    else:
+        dump_file = 'checkpoint_{}'.format(label)
+        runcmd('mysql -u {} -p{} {} < {}'.format(db_username, db_password, db_database, dump_file))
 
 def parse_request(request):
     url = request.split('\r\n')[0].split(' ')[1]
@@ -166,7 +192,9 @@ def run_tests(tests):
                 execute_request(request)
 
 if __name__ == "__main__":
-    global remove_dupicates, test_length, filter_extensions, checkpointing, application_ip, application_port  
+    global remove_dupicates, test_length, filter_extensions, \
+        checkpointing, application_ip, application_port, proxy_ip, proxy_port, \
+        db_username, db_password, db_database
     
     if len(sys.argv) != 2:
         print 'Usage:', sys.argv[0], '<config file>'
@@ -187,6 +215,13 @@ if __name__ == "__main__":
     
     application_ip = config.get(APPLICATION_SECTION, 'IP')
     application_port = config.getint(APPLICATION_SECTION, 'PORT')
+    
+    proxy_ip = config.get(PROXY_SECTION, 'IP')
+    proxy_port = config.getint(PROXY_SECTION, 'PORT')
+    
+    db_username = config.get(DATABASE_SECTION, 'USERNAME')
+    db_password = config.get(DATABASE_SECTION, 'PASSWORD')
+    db_database = config.get(DATABASE_SECTION, 'DATABASE')
     
     tests = read_tests(path_to_tests)
     #tests = [['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'e'], ['a', 'f'] ]

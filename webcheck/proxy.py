@@ -72,7 +72,7 @@ if __name__ == '__main__':
     
             print 'Received message', msg
             # Handle different types of message
-            if msg.startswith('start_savepoint'):
+            if msg.startswith('checkpoint'):
                 label = msg.split(':')[1]                
                 print 'DEBUG: Transaction started'
                 #cursor_tr.execute('start transaction')
@@ -80,17 +80,17 @@ if __name__ == '__main__':
                 print query
                 cursor_tr.execute(query)
     
-                sent = clientsocket.send('Savepoint-Intermediate-Success')
+                sent = clientsocket.send('OK')
                 if sent == 0:
                     raise RuntimeError('Socket connection broken')
     
-            elif msg.startswith('roll_back'):
+            elif msg.startswith('restore'):
                 label = msg.split(':')[1]
                 query = 'rollback to savepoint {}'.format(label)
                 print query
                 cursor_tr.execute(query)
 
-                sent = clientsocket.send('Rollback-Intermediate-Success')
+                sent = clientsocket.send('OK')
                 if sent == 0:
                     raise RuntimeError('Socket connection broken')
     
