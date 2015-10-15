@@ -6,6 +6,7 @@ import glob
 from os import path
 from scipy.weave.ast_tools import remove_duplicates
 import socket
+import requests
 
 def parse_test_file(file):
     requests = []
@@ -17,11 +18,10 @@ def parse_test_file(file):
             if line.startswith('========================================Response'):
                 in_request = False    
                 if request.startswith('GET'):
-                    request = request[:-12] + '\\r\\n\\r\\n'
-                print request
+                    request = request.strip() + '\r\n\r\n'
                 requests.append(request)
             if in_request:
-                request += line.strip() + '\\r\\n'
+                request += line.strip() + '\r\n'
             if line.startswith('========================================Request'):
                 in_request = True
                 request = ''            
@@ -94,11 +94,34 @@ def checkpoint(label):
 def restore(label):
     print 'restore', label
 
+def parse_request(request):
+    url = request.split('\r\n')[0].split(' ')[1]
+    key_value_pairs = request.split('\r\n')[1:-2]
+    headers = {}
+    for key_value in key_value_pairs:
+        key = key_value.split(': ')[0]
+        value = key_value.split(': ')[1]
+        headers[key] = value
+    return (url, headers)
+
 def execute_request(request):
-    sock = socket.socket()
-    sock.connect((application_ip, application_port))
-    sock.send(request)
-    print sock.recv(100)
+    if request.startswith('GET'):
+        (url, headers) = parse_request(request)
+        print requests.get(url, headers=headers)
+    else:
+        (url, headers) = parse_request(request.split('\r\n\r\n')[0])
+        if (request.split('\r\n\r\n')) > 0:
+            key_value_pairs = request.split('\r\n\r\n')[1].strip()
+            parameters = {}
+            for key_value in key_value_pairs.split('&'):
+                key = key_value.split('=')[0]
+                value = key_value.split('=')[1]
+                parameters[key] = value
+        print requests.post(url, headers=headers, data=parameters)
+#    sock = socket.socket()
+#    sock.connect((application_ip, application_port))    
+#    sock.send(request)    
+#    sock.recv(4096)
 
 def transform_tests(tests):
     trie = make_trie(tests)
@@ -173,5 +196,5 @@ if __name__ == "__main__":
             tests = transform_tests(tests)
         else:
             tests = isolate_tests(tests)
-    run_tests(tests)   
+    run_tests(tests*100)   
     #trie = make_trie(tests)
