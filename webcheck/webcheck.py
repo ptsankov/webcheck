@@ -1,10 +1,11 @@
 #!/usr/bin/python
 import sys
-from static import TESTS_SECTION
+from static import TESTS_SECTION, EXECUTION_SECTION, APPLICATION_SECTION
 import ConfigParser
 import glob
 from os import path
 from scipy.weave.ast_tools import remove_duplicates
+import socket
 
 def parse_test_file(file):
     requests = []
@@ -14,7 +15,10 @@ def parse_test_file(file):
         in_request = False
         for line in content:
             if line.startswith('========================================Response'):
-                in_request = False
+                in_request = False    
+                if request.startswith('GET'):
+                    request = request[:-12] + '\\r\\n\\r\\n'
+                print request
                 requests.append(request)
             if in_request:
                 request += line.strip() + '\\r\\n'
@@ -83,14 +87,18 @@ def make_trie(tests):
             cur_node = cur_node[request]
     return trie
 
-def execute_request(request):
-    print 'execute', request
 
 def checkpoint(label):
     print 'checkpoint', label
     
 def restore(label):
     print 'restore', label
+
+def execute_request(request):
+    sock = socket.socket()
+    sock.connect((application_ip, application_port))
+    sock.send(request)
+    print sock.recv(100)
 
 def transform_tests(tests):
     trie = make_trie(tests)
@@ -115,13 +123,27 @@ def transform_tests(tests):
             t.append(q)
             S.append((n[q], t))
         else:
-            T.append(t)
+            T = [t] + T
             
-    return list(reversed(T))
-    
+    return T
+
+def isolate_tests(tests):
+    return [ ['checkpoint:init'] + tests[0]] + [ ['restore:init'] + t for t in tests[1:] ]
+
+def run_tests(tests):
+    for test in tests:
+        for request in test:
+            if request.startswith('checkpoint'):
+                label = request.split(':')[1]
+                checkpoint(label)
+            elif request.startswith('restore'):
+                label = request.split(':')[1]
+                restore(label)
+            else:
+                execute_request(request)
 
 if __name__ == "__main__":
-    global remove_dupicates, test_length, filter_extensions  
+    global remove_dupicates, test_length, filter_extensions, checkpointing, application_ip, application_port  
     
     if len(sys.argv) != 2:
         print 'Usage:', sys.argv[0], '<config file>'
@@ -136,11 +158,20 @@ if __name__ == "__main__":
     test_length = config.getint(TESTS_SECTION, 'TEST_LENGTH')
     filter_extensions  = config.get(TESTS_SECTION, 'FILTER_EXTENSIONS').split(',')
     
-    #tests = read_tests(path_to_tests)
-    tests = [['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'e'], ['a', 'f'] ]
-   
-    sss = transform_tests(tests)
-    for t in sss:
-        print t
-    pass
+    isolation = config.getboolean(EXECUTION_SECTION, 'ISOLATION')
+    optimize_tests = config.getboolean(EXECUTION_SECTION, 'OPTIMIZE_TESTS')
+    checkpointing = config.getboolean(EXECUTION_SECTION, 'CHECKPOINTING')
+    
+    application_ip = config.get(APPLICATION_SECTION, 'IP')
+    application_port = config.getint(APPLICATION_SECTION, 'PORT')
+    
+    tests = read_tests(path_to_tests)
+    #tests = [['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'e'], ['a', 'f'] ]
+    
+    if isolation:
+        if optimize_tests:
+            tests = transform_tests(tests)
+        else:
+            tests = isolate_tests(tests)
+    run_tests(tests)   
     #trie = make_trie(tests)
