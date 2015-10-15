@@ -13,26 +13,6 @@ MAX_TEST_LENGTH = 20
 FILTER_DUPLICATES = True
 FILTER_NON_PHP = True
 
-def packet_filter(packet):
-    return False
-    if not isinstance(packet[Ether].payload, IP):
-        return True
-    if not isinstance(packet[IP].payload, TCP):
-        return True
-    if not isinstance(packet[TCP].payload, HTTP):
-        return True
-    if not isinstance(packet[HTTP].payload, HTTPRequest):
-        return True
-    return False
-
-def read_packets(test_file):        
-    packets = []    
-    test_packets = rdpcap(test_file)
-    for packet in test_packets:
-        if not packet_filter(packet):
-            packets.append(packet)                        
-    return packets
-
 def read_requests(test_file):
     test_id = int(test_file[4:-9])
     log_file = 'test{}_log.txt'.format(test_id)
