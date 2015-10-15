@@ -8,40 +8,42 @@ from static import INSTRUMENTATION_SECTION, PROXY_SECTION
 def php_instrumentation(proxy):
     return '''<?php  
             
-            runkit_function_copy ( 'mysql_query', 'mysql_query_old' );
-            
-            runkit_function_redefine('mysql_query', '$query , $link_identifier=null', '// Modified mysql_query()
-            
-               //--------------- Connect to proxy ----------------
-               $client = stream_socket_client("tcp://''' + proxy + '''", $errno, $errorMessage);
-            
-               if ($client === false) {
-                throw new UnexpectedValueException("Failed to connect: $errorMessage");
-               }
-            
-               fwrite($client, $query);
-            
-               // Get response from proxy.
-               $response = stream_get_contents($client);
-            
-               if ($response == "true" or $response == "false") {
-                if ($response == "true") {
-                    $result = TRUE;
-                } else {
-                    $result = FALSE;
-                }
-               } else {
-                $newQuery = $response;
-                if (is_null($link_identifier)) {
-                  $result = mysql_query_old ( $newQuery);
-                } else {
-                  $result = mysql_query_old ( $newQuery, $link_identifier);
-                }
-               }
-            
-               // Close connection to proxy.
-               fclose($client);
-               return $result;');
+            if (!function_exists('mysql_query_old')) {
+              runkit_function_copy ( 'mysql_query', 'mysql_query_old' );
+              
+              runkit_function_redefine('mysql_query', '$query , $link_identifier=null', '// Modified mysql_query()
+              
+                 //--------------- Connect to proxy ----------------
+                 $client = stream_socket_client("tcp://''' + proxy + '''", $errno, $errorMessage);
+              
+                 if ($client === false) {
+                  throw new UnexpectedValueException("Failed to connect: $errorMessage");
+                 }
+              
+                 fwrite($client, $query);
+              
+                 // Get response from proxy.
+                 $response = stream_get_contents($client);
+              
+                 if ($response == "true" or $response == "false") {
+                  if ($response == "true") {
+                      $result = TRUE;
+                  } else {
+                      $result = FALSE;
+                  }
+                 } else {
+                  $newQuery = $response;
+                  if (is_null($link_identifier)) {
+                    $result = mysql_query_old ( $newQuery);
+                  } else {
+                    $result = mysql_query_old ( $newQuery, $link_identifier);
+                  }
+                 }
+              
+                 // Close connection to proxy.
+                 fclose($client);
+                 return $result;');
+            }
             
             // -------------
             '''

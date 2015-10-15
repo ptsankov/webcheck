@@ -103,11 +103,14 @@ if __name__ == '__main__':
                 if ('show' in query[:10]):
                     raise RuntimeError('Add support for SHOW queries')
                 elif ('select' in query[:10]):
+                    query = query.replace(';', '')
                     # Execute query, and get result.
                     cursor_tr.execute(query)
                     query_result = cursor_tr.fetchall()
                     query_desc = cursor_tr.description
-                    result_table = 'result_{}'.format(result_counter)
+                    result_table = 'result_{}'.format(result_counter)                                    
+                                        
+                    cursor.execute('DROP TABLE IF EXISTS {}'.format(result_table))
                     
                     query = 'create temporary table {} select * from ('.format(result_table) + query + ') as XXX where false'
                     print query                     
@@ -118,7 +121,8 @@ if __name__ == '__main__':
                     table_create = cursor_tr.fetchall()                    
                     query = 'drop temporary table {}'.format(result_table)
                     print query
-                    cursor_tr.execute(query)
+                    cursor_tr.execute(query)                
+                    
                     create_table_command = table_create[0][1].replace('CREATE TEMPORARY TABLE', 'CREATE TABLE')
                     print create_table_command
                     cursor.execute(create_table_command)                                                    

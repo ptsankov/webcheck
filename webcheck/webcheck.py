@@ -4,7 +4,6 @@ from static import TESTS_SECTION, EXECUTION_SECTION, APPLICATION_SECTION, PROXY_
 import ConfigParser
 import glob
 from os import path
-from scipy.weave.ast_tools import remove_duplicates
 import socket
 import requests
 import shlex
@@ -55,7 +54,7 @@ def white_list(log_file):
                 pass
     return list
 
-def filter_test(test, filter_extensions, remove_dupicates, allowed_urls):
+def filter_test(test, filter_extensions, allowed_urls):
     filtered_requests = []
     for request in test:
         url = request.split(' ')[1]
@@ -74,7 +73,7 @@ def read_tests(path_to_tests):
         print test_file        
         test = parse_test_file(test_file)
         allowed_urls = white_list(test_file.replace('http', 'log')) 
-        filtered_test = filter_test(test, filter_extensions, remove_dupicates, allowed_urls)[:test_length]
+        filtered_test = filter_test(test, filter_extensions, allowed_urls)[:test_length]
         tests.append(filtered_test)
     return tests
         
@@ -131,9 +130,12 @@ def parse_request(request):
     return (url, headers)
 
 def execute_request(request):
+    print request
     if request.startswith('GET'):
         (url, headers) = parse_request(request)
-        print requests.get(url, headers=headers)
+        response = requests.get(url, headers=headers)
+        print response
+        print response.text
     else:
         (url, headers) = parse_request(request.split('\r\n\r\n')[0])
         if (request.split('\r\n\r\n')) > 0:
@@ -143,7 +145,9 @@ def execute_request(request):
                 key = key_value.split('=')[0]
                 value = key_value.split('=')[1]
                 parameters[key] = value
-        print requests.post(url, headers=headers, data=parameters)
+        response = requests.post(url, headers=headers, data=parameters)
+        print response
+        print response.text
 #    sock = socket.socket()
 #    sock.connect((application_ip, application_port))    
 #    sock.send(request)    
@@ -192,7 +196,7 @@ def run_tests(tests):
                 execute_request(request)
 
 if __name__ == "__main__":
-    global remove_dupicates, test_length, filter_extensions, \
+    global remove_duplicates, test_length, filter_extensions, \
         checkpointing, application_ip, application_port, proxy_ip, proxy_port, \
         db_username, db_password, db_database
     
@@ -205,7 +209,7 @@ if __name__ == "__main__":
     config = ConfigParser.ConfigParser()
     config.read(config_file)
     path_to_tests = config.get(TESTS_SECTION, 'PATH')
-    remove_dupicates = config.getboolean(TESTS_SECTION, 'REMOVE_DUPLICATES')
+    remove_duplicates = config.getboolean(TESTS_SECTION, 'REMOVE_DUPLICATES')
     test_length = config.getint(TESTS_SECTION, 'TEST_LENGTH')
     filter_extensions  = config.get(TESTS_SECTION, 'FILTER_EXTENSIONS').split(',')
     
@@ -231,5 +235,5 @@ if __name__ == "__main__":
             tests = transform_tests(tests)
         else:
             tests = isolate_tests(tests)
-    run_tests(tests*100)   
+    run_tests(tests)   
     #trie = make_trie(tests)
