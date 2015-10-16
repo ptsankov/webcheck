@@ -88,10 +88,13 @@ def make_trie(tests):
             cur_node = cur_node[request]
     return trie
 
-def runcmd(cmd, input=PIPE, output=PIPE, cwd=None):
+def runcmd(cmd, input=str, output=PIPE, cwd=None):
     args = shlex.split(cmd)
     p = Popen(args, stdin=PIPE, stdout=output, stderr=PIPE, cwd=cwd)
-    out, err = p.communicate()
+    if input == PIPE:
+        out, err = p.communicate()
+    else:
+        out, err = p.communicate(input=str)
     return out
 
 def checkpoint(label):
@@ -102,7 +105,7 @@ def checkpoint(label):
         print 'Checkpointing', label, sock.recv(2)
     else:
         dump_file = 'checkpoint_{}'.format(label)
-        runcmd('mysqldump -u {} -p{} {} > {}'.format(db_username, db_password, db_database, dump_file))
+        runcmd('mysqldump -u {} -p{} {}'.format(db_username, db_password, db_database), output=open(dump_file, 'w'))
         
     
 def restore(label):
@@ -114,7 +117,7 @@ def restore(label):
         print 'Restoring', label, sock.recv(2)
     else:
         dump_file = 'checkpoint_{}'.format(label)
-        runcmd('mysql -A -u {} -p{} {} < {}'.format(db_username, db_password, db_database, dump_file))
+        runcmd('mysql -u {} -p{} {}'.format(db_username, db_password, db_database, dump_file), input='source {}'.format(dump_file))
     print 'done restoring'
 
 def parse_request(request):
@@ -194,7 +197,7 @@ def run_tests(tests):
 def drop_result_tables():
     print 'Dropping result tables'
     for i in range(proxy_max_result_tables):
-        runcmd('echo "drop table if exists result_{}" | mysql -u {} -p{} {}'.format(i, db_username, db_password, db_database))
+        runcmd('mysql -u {} -p{} {}'.format(db_username, db_password, db_database), input='drop table if exists result{}'.format(i))
 
 if __name__ == "__main__":
     global remove_duplicates, test_length, filter_extensions, \
