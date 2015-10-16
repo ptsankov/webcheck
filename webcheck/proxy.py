@@ -30,6 +30,7 @@ if __name__ == '__main__':
     proxy_ip = config.get(PROXY_SECTION, 'IP')
     proxy_port = config.getint(PROXY_SECTION, 'PORT')
     proxy_max_connections = config.getint(PROXY_SECTION, 'MAX_CONNECTIONS')
+    proxy_max_result_tables = config.getint(PROXY_SECTION, 'MAX_RESULT_TABLES')
     debug = config.getboolean(PROXY_SECTION, 'DEBUG')
     
     # --------------------------
@@ -144,7 +145,7 @@ if __name__ == '__main__':
                     db_connection.commit()
 
                     new_query = 'select * from {}'.format(result_table)
-                    result_counter += 1
+                    result_counter = (result_counter + 1) % max_result_tables
                     
                     # Send new query to client
                     sent = clientsocket.send(new_query)

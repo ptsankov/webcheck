@@ -88,14 +88,10 @@ def make_trie(tests):
             cur_node = cur_node[request]
     return trie
 
-def runcmd(cmd, cwd=None):
+def runcmd(cmd, input=PIPE, output=PIPE, cwd=None):
     args = shlex.split(cmd)
-    p = Popen(args, stdout=PIPE, stderr=PIPE, cwd=cwd)
+    p = Popen(args, stdin=PIPE, stdout=output, stderr=PIPE, cwd=cwd)
     out, err = p.communicate()
-    if out:
-        print out
-    else:
-        print err
     return out
 
 def checkpoint(label):
@@ -110,6 +106,7 @@ def checkpoint(label):
         
     
 def restore(label):
+    print 'restoring'
     if checkpointing:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.connect((proxy_ip, proxy_port))
@@ -117,7 +114,8 @@ def restore(label):
         print 'Restoring', label, sock.recv(2)
     else:
         dump_file = 'checkpoint_{}'.format(label)
-        runcmd('mysql -u {} -p{} {} < {}'.format(db_username, db_password, db_database, dump_file))
+        runcmd('mysql -A -u {} -p{} {} < {}'.format(db_username, db_password, db_database, dump_file))
+    print 'done restoring'
 
 def parse_request(request):
     url = request.split('\r\n')[0].split(' ')[1]
@@ -134,8 +132,7 @@ def execute_request(request):
     if request.startswith('GET'):
         (url, headers) = parse_request(request)
         response = requests.get(url, headers=headers)
-        print response
-        print response.text
+        print response.status_code
     else:
         (url, headers) = parse_request(request.split('\r\n\r\n')[0])
         if (request.split('\r\n\r\n')) > 0:
@@ -146,8 +143,7 @@ def execute_request(request):
                 value = key_value.split('=')[1]
                 parameters[key] = value
         response = requests.post(url, headers=headers, data=parameters)
-        print response
-        print response.text
+        print response.status_code
 #    sock = socket.socket()
 #    sock.connect((application_ip, application_port))    
 #    sock.send(request)    
@@ -195,10 +191,15 @@ def run_tests(tests):
             else:
                 execute_request(request)
 
+def drop_result_tables():
+    print 'Dropping result tables'
+    for i in range(proxy_max_result_tables):
+        runcmd('echo "drop table if exists result_{}" | mysql -u {} -p{} {}'.format(i, db_username, db_password, db_database))
+
 if __name__ == "__main__":
     global remove_duplicates, test_length, filter_extensions, \
         checkpointing, application_ip, application_port, proxy_ip, proxy_port, \
-        db_username, db_password, db_database
+        db_username, db_password, db_database, number_of_result_tables, proxy_max_result_tables
     
     if len(sys.argv) != 2:
         print 'Usage:', sys.argv[0], '<config file>'
@@ -215,13 +216,14 @@ if __name__ == "__main__":
     
     isolation = config.getboolean(EXECUTION_SECTION, 'ISOLATION')
     optimize_tests = config.getboolean(EXECUTION_SECTION, 'OPTIMIZE_TESTS')
-    checkpointing = config.getboolean(EXECUTION_SECTION, 'CHECKPOINTING')
+    checkpointing = config.getboolean(EXECUTION_SECTION, 'CHECKPOINTING')    
     
     application_ip = config.get(APPLICATION_SECTION, 'IP')
     application_port = config.getint(APPLICATION_SECTION, 'PORT')
     
     proxy_ip = config.get(PROXY_SECTION, 'IP')
     proxy_port = config.getint(PROXY_SECTION, 'PORT')
+    proxy_max_result_tables = config.getint(PROXY_SECTION, 'MAX_RESULT_TABLES')
     
     db_username = config.get(DATABASE_SECTION, 'USERNAME')
     db_password = config.get(DATABASE_SECTION, 'PASSWORD')
@@ -235,5 +237,7 @@ if __name__ == "__main__":
             tests = transform_tests(tests)
         else:
             tests = isolate_tests(tests)
+    
+    drop_result_tables()
     run_tests(tests)   
-    #trie = make_trie(tests)
+    drop_result_tables()

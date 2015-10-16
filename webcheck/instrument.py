@@ -6,8 +6,7 @@ from static import INSTRUMENTATION_SECTION, PROXY_SECTION
 
 
 def php_instrumentation(proxy):
-    return '''<?php  
-            
+    return '''              
             if (!function_exists('mysql_query_old')) {
               runkit_function_copy ( 'mysql_query', 'mysql_query_old' );
               
@@ -75,11 +74,16 @@ if __name__ == "__main__":
         with open(phpFile) as f:
             content = f.readlines()
     
+        has_namespace = True in [line.startswith('namespace') for line in content]
         with open(phpFile, "wt") as fout:
             instrumented = False
             for line in content:
-                if not instrumented and line[0:5] == '<?php':
-                    fout.write(line.replace('<?php', php_instrumentation(proxy)))
+                if not instrumented and (not has_namespace) and line.startswith('<?php'):
+                    fout.write(line.replace('<?php', '<?php\n' + php_instrumentation(proxy)))
+                    instrumented = True
+                elif not instrumented and has_namespace and line.startswith('namespace'):
+                    fout.write(line)
+                    fout.write(php_instrumentation(proxy))
                     instrumented = True
                 else:
                     fout.write(line)

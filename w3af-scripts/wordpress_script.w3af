@@ -1,0 +1,49 @@
+#wordpress script
+plugins
+output console,text_file
+output config text_file
+set output_file output-w3af.txt
+set http_output_file output-w3af-http.txt
+set verbose True
+back
+output config console
+set verbose False
+back
+
+#audit xss
+
+crawl web_spider
+crawl config web_spider
+set only_forward True
+set ignore_regex .*action=logout*  | */wp-admin/profile*
+set follow_regex http://bellog.org/wordpress/*
+back
+
+auth detailed
+auth config detailed
+set username admin
+set password admin
+set username_field log
+set password_field pwd
+set data_format %u=%U&%p=%P
+set auth_url http://bellog.org/wordpress/wp-login.php
+set method POST
+set check_url http://bellog.org/wordpress/wp-admin/
+set check_string 'Howdy, admin'
+set follow_redirects True
+back
+
+# from plugin
+back
+
+target
+set target http://bellog.org/wordpress/wp-admin/
+back
+
+start
+
+exit
+
+
+
+
