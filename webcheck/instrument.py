@@ -76,8 +76,10 @@ if __name__ == "__main__":
             content = f.readlines()
     
         with open(phpFile, "wt") as fout:
+            instrumented = False
             for line in content:
-                if line[0:5] == '<?php':
+                if not instrumented and line[0:5] == '<?php':
                     fout.write(line.replace('<?php', php_instrumentation(proxy)))
+                    instrumented = True
                 else:
                     fout.write(line)

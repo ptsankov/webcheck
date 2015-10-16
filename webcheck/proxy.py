@@ -6,7 +6,13 @@ import ConfigParser
 import socket
 from static import PROXY_SECTION, DATABASE_SECTION
 
+def log(m):
+    if debug:
+        print m
+
 if __name__ == '__main__':
+    
+    global debug    
     
     if len(sys.argv) != 2:
         print ('Usage: ' + sys.argv[0] + ' <config file>')
@@ -20,10 +26,11 @@ if __name__ == '__main__':
     db_username = config.get(DATABASE_SECTION, 'USERNAME')
     db_password = config.get(DATABASE_SECTION, 'PASSWORD')
     db_database = config.get(DATABASE_SECTION, 'DATABASE')
-    
+        
     proxy_ip = config.get(PROXY_SECTION, 'IP')
     proxy_port = config.getint(PROXY_SECTION, 'PORT')
     proxy_max_connections = config.getint(PROXY_SECTION, 'MAX_CONNECTIONS')
+    debug = config.getboolean(PROXY_SECTION, 'DEBUG')
     
     # --------------------------
     #   Setup Listening Socket
@@ -64,20 +71,19 @@ if __name__ == '__main__':
         while True:
             # Accept connections from outside
             (clientsocket, address) = listening_socket.accept()
-            #print 'DEBUG: -----------------------'
-            print 'DEBUG: Connected with', address[0] + ':' + str(address[1])
+            log ('DEBUG: Connected with' + address[0] + ':' + str(address[1]))
     
             # Read data sent by the client
             msg = clientsocket.recv(4096)
     
-            print 'Received message', msg
+            print 'Received message' + msg
             # Handle different types of message
             if msg.startswith('checkpoint'):
                 label = msg.split(':')[1]                
-                print 'DEBUG: Transaction started'
+                log('DEBUG: Transaction started')
                 #cursor_tr.execute('start transaction')
                 query = 'savepoint {}'.format(label)
-                print query
+                log(query)
                 cursor_tr.execute(query)
     
                 sent = clientsocket.send('OK')
@@ -87,7 +93,7 @@ if __name__ == '__main__':
             elif msg.startswith('restore'):
                 label = msg.split(':')[1]
                 query = 'rollback to savepoint {}'.format(label)
-                print query
+                log(query)
                 cursor_tr.execute(query)
 
                 sent = clientsocket.send('OK')
@@ -97,11 +103,16 @@ if __name__ == '__main__':
             else:
                 # A query has been sent                
                 query = msg.lower()    
-                print query        
+                log(query)        
     
                 # Determine type of query: Selection or Other.
                 if ('show' in query[:10]):
-                    raise RuntimeError('Add support for SHOW queries')
+                    new_query = "select table_name from information_schema.tables where table_schema='{}'".format(db_database)
+                    # Send new query to client
+                    sent = clientsocket.send(new_query)
+                    clientsocket.close()
+                    if sent == 0:
+                        raise RuntimeError('Socket connection broken')
                 elif ('select' in query[:10]):
                     query = query.replace(';', '')
                     # Execute query, and get result.
@@ -113,18 +124,18 @@ if __name__ == '__main__':
                     cursor.execute('DROP TABLE IF EXISTS {}'.format(result_table))
                     
                     query = 'create temporary table {} select * from ('.format(result_table) + query + ') as XXX where false'
-                    print query                     
+                    log(query)                     
                     cursor_tr.execute(query)
                     query = 'show create table {}'.format(result_table)
-                    print query
+                    log(query)
                     cursor_tr.execute(query)
                     table_create = cursor_tr.fetchall()                    
                     query = 'drop temporary table {}'.format(result_table)
-                    print query
+                    log(query)
                     cursor_tr.execute(query)                
                     
                     create_table_command = table_create[0][1].replace('CREATE TEMPORARY TABLE', 'CREATE TABLE')
-                    print create_table_command
+                    log(create_table_command)
                     cursor.execute(create_table_command)                                                    
                     
                     insert_stmt = "INSERT INTO {} VALUES (".format(result_table) + ("%s," * len(query_desc)).strip(",") + ")"
@@ -137,6 +148,7 @@ if __name__ == '__main__':
                     
                     # Send new query to client
                     sent = clientsocket.send(new_query)
+                    clientsocket.close()
                     if sent == 0:
                         raise RuntimeError('Socket connection broken')
                     
@@ -146,15 +158,17 @@ if __name__ == '__main__':
                     try:
                         cursor_tr.execute(query)
                         sent = clientsocket.send('true')
+                        clientsocket.close()
                         if sent == 0:
                             raise RuntimeError('Socket connection broken')
                     except:
                         sent = clientsocket.send('false')
+                        clientsocket.close()
                         if sent == 0:
                             raise RuntimeError('Socket connection broken')           
     
     except KeyboardInterrupt:
-        print 'Keyboard Interrupt'
+        print 'Keyboard Interrupt'        
     except:
         raise
     finally:
