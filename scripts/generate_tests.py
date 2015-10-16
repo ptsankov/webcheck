@@ -35,9 +35,9 @@ if __name__ == "__main__":
     for i in range(0, num_tests):
         msg('Generating test case {}'.format(i))
         
-        msg('Reset the database')
-        cmd = 'mysql -u root -pasdLweMC0 bambooinvoice < {}'.format(BAMBOO_DB_DUMP)
-        runcmd(cmd)
+        #msg('Reset the database')
+        #cmd = 'mysql -u root -pasdLweMC0 bambooinvoice < {}'.format(BAMBOO_DB_DUMP)
+        #runcmd(cmd)
         
         msg('Run w3af')        
         cmd = 'sudo {} --script={}'.format(W3AF, w3af_script)

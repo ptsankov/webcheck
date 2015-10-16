@@ -1,0 +1,49 @@
+#bamboo invoce script
+plugins
+output console,text_file
+output config text_file
+set output_file output-w3af.txt
+set http_output_file output-w3af-http.txt
+set verbose True
+back
+output config console
+set verbose False
+back
+
+#audit xss
+
+crawl web_spider
+crawl config web_spider
+set only_forward True
+set ignore_regex .*logout.* | */settings*
+set follow_regex http://bellog.org/bamboo/*
+back
+
+auth detailed
+auth config detailed
+set username a@a.com
+set password s
+set username_field username
+set password_field password
+set data_format %u=%U&%p=%P
+set auth_url http://bellog.org/bamboo/index.php/login
+set method POST
+set check_url http://bellog.org/bamboo/index.php
+set check_string 'logout'
+set follow_redirects True
+back
+
+# from plugin
+back
+
+target
+set target http://bellog.org/bamboo/index.php
+back
+
+start
+
+exit
+
+
+
+
