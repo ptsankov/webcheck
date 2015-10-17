@@ -8,6 +8,7 @@ import socket
 import requests
 import shlex
 from subprocess import PIPE, Popen
+import MySQLdb
 
 def parse_test_file(file):
     requests = []
@@ -105,8 +106,18 @@ def checkpoint(label):
         print 'Checkpointing', label, sock.recv(2)
     else:
         dump_file = 'checkpoint_{}'.format(label)
-        runcmd('mysqldump -u {} -p{} {}'.format(db_username, db_password, db_database), output=open(dump_file, 'w'))
+        runcmd('mysqldump -u {} -p{} {} {}'.format(db_username, db_password, db_database, ' '.join(table_names)), output=open(dump_file, 'w'))
         
+def get_table_names():
+    db_connection = MySQLdb.connect(host=db_host, user=db_username, passwd=db_password, db=db_database)
+    cursor = db_connection.cursor()    
+    
+    query_table_names = 'show tables like "{}%"'.format(db_tables_prefix)    
+    cursor.execute(query_table_names)
+    result_table_names = cursor.fetchall()        
+    table_names = [x[0] for x in result_table_names]
+    return table_names
+
     
 def restore(label):
     print 'restoring'
@@ -202,7 +213,9 @@ def drop_result_tables():
 if __name__ == "__main__":
     global remove_duplicates, test_length, filter_extensions, \
         checkpointing, application_ip, application_port, proxy_ip, proxy_port, \
-        db_username, db_password, db_database, number_of_result_tables, proxy_max_result_tables
+        db_host, db_username, db_password, db_database, db_tables_prefix, number_of_result_tables, proxy_max_result_tables, \
+        table_names
+        
     
     if len(sys.argv) != 2:
         print 'Usage:', sys.argv[0], '<config file>'
@@ -228,9 +241,13 @@ if __name__ == "__main__":
     proxy_port = config.getint(PROXY_SECTION, 'PORT')
     proxy_max_result_tables = config.getint(PROXY_SECTION, 'MAX_RESULT_TABLES')
     
+    db_host = config.get(DATABASE_SECTION, 'HOST')
     db_username = config.get(DATABASE_SECTION, 'USERNAME')
     db_password = config.get(DATABASE_SECTION, 'PASSWORD')
-    db_database = config.get(DATABASE_SECTION, 'DATABASE')
+    db_database = config.get(DATABASE_SECTION, 'DATABASE')    
+    db_tables_prefix = config.get(DATABASE_SECTION, 'TABLES_PREFIX')
+    
+    table_names = get_table_names()
     
     tests = read_tests(path_to_tests)
     #tests = [['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'e'], ['a', 'f'] ]

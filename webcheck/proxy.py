@@ -26,6 +26,7 @@ if __name__ == '__main__':
     db_username = config.get(DATABASE_SECTION, 'USERNAME')
     db_password = config.get(DATABASE_SECTION, 'PASSWORD')
     db_database = config.get(DATABASE_SECTION, 'DATABASE')
+    db_tables_prefix = config.get(DATABASE_SECTION, 'TABLES_PREFIX')
         
     proxy_ip = config.get(PROXY_SECTION, 'IP')
     proxy_port = config.getint(PROXY_SECTION, 'PORT')
@@ -38,7 +39,7 @@ if __name__ == '__main__':
     # --------------------------
     listening_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)        
     listening_socket.bind((proxy_ip, proxy_port))
-    listening_socket.listen(proxy_max_connections)
+    listening_socket.listen(proxy_max_connections)    
     
     try:
 
@@ -52,19 +53,22 @@ if __name__ == '__main__':
         cursor = db_connection.cursor()
         
         # --------------------------
-        #   Create table templates
+        #   Start transaction
         # --------------------------
         query = 'start transaction'
         print query
-        cursor_tr.execute(query)        
-    
+        cursor_tr.execute(query)            
         
+        query_table_names = 'show tables like "{}%"'.format(db_tables_prefix)
+        log(query_table_names)
+        cursor_tr.execute(query_table_names)
+        result_table_names = cursor_tr.fetchall()        
+        table_names = [x[0] for x in result_table_names]
     
         # ------------
         #  Variables
         # ------------
         result_counter = 0
-        number_error_catch = 0
     
         # -------
         #  LOOP
@@ -72,7 +76,7 @@ if __name__ == '__main__':
         while True:
             # Accept connections from outside
             (clientsocket, address) = listening_socket.accept()
-            log ('DEBUG: Connected with' + address[0] + ':' + str(address[1]))
+            log('DEBUG: Connected with' + address[0] + ':' + str(address[1]))
     
             # Read data sent by the client
             msg = clientsocket.recv(4096)
@@ -145,7 +149,7 @@ if __name__ == '__main__':
                     db_connection.commit()
 
                     new_query = 'select * from {}'.format(result_table)
-                    result_counter = (result_counter + 1) % max_result_tables
+                    result_counter = (result_counter + 1) % proxy_max_result_tables
                     
                     # Send new query to client
                     sent = clientsocket.send(new_query)
