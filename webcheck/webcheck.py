@@ -9,6 +9,7 @@ import requests
 import shlex
 from subprocess import PIPE, Popen
 import MySQLdb
+import time
 
 def parse_test_file(file):
     requests = []
@@ -89,16 +90,17 @@ def make_trie(tests):
             cur_node = cur_node[request]
     return trie
 
-def runcmd(cmd, input=str, output=PIPE, cwd=None):
+def runcmd(cmd, input=PIPE, output=PIPE, cwd=None):
+    print cmd, input
     args = shlex.split(cmd)
     p = Popen(args, stdin=PIPE, stdout=output, stderr=PIPE, cwd=cwd)
-    if input == PIPE:
-        out, err = p.communicate()
-    else:
-        out, err = p.communicate(input=str)
+    if input != PIPE:
+        p.stdin.write(input + '\n')
+    out, err = p.communicate()
     return out
 
 def checkpoint(label):
+    start_time = time.time()
     if checkpointing:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.connect((proxy_ip, proxy_port))
@@ -107,6 +109,8 @@ def checkpoint(label):
     else:
         dump_file = 'checkpoint_{}'.format(label)
         runcmd('mysqldump -u {} -p{} {} {}'.format(db_username, db_password, db_database, ' '.join(table_names)), output=open(dump_file, 'w'))
+    end_time = time.time()
+    print 'Checkpoint time:', end_time - start_time    
         
 def get_table_names():
     db_connection = MySQLdb.connect(host=db_host, user=db_username, passwd=db_password, db=db_database)
@@ -114,12 +118,13 @@ def get_table_names():
     
     query_table_names = 'show tables like "{}%"'.format(db_tables_prefix)    
     cursor.execute(query_table_names)
-    result_table_names = cursor.fetchall()        
-    table_names = [x[0] for x in result_table_names]
+    table_names_result = cursor.fetchall()
+    table_names = [x[0] for x in table_names_result]
     return table_names
 
     
 def restore(label):
+    start_time = time.time()
     print 'restoring'
     if checkpointing:
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
@@ -130,6 +135,8 @@ def restore(label):
         dump_file = 'checkpoint_{}'.format(label)
         runcmd('mysql -u {} -p{} {}'.format(db_username, db_password, db_database, dump_file), input='source {}'.format(dump_file))
     print 'done restoring'
+    end_time = time.time()
+    print 'Restore time:', end_time - start_time
 
 def parse_request(request):
     url = request.split('\r\n')[0].split(' ')[1]
@@ -205,15 +212,11 @@ def run_tests(tests):
             else:
                 execute_request(request)
 
-def drop_result_tables():
-    print 'Dropping result tables'
-    for i in range(proxy_max_result_tables):
-        runcmd('mysql -u {} -p{} {}'.format(db_username, db_password, db_database), input='drop table if exists result{}'.format(i))
 
 if __name__ == "__main__":
     global remove_duplicates, test_length, filter_extensions, \
         checkpointing, application_ip, application_port, proxy_ip, proxy_port, \
-        db_host, db_username, db_password, db_database, db_tables_prefix, number_of_result_tables, proxy_max_result_tables, \
+        db_host, db_username, db_password, db_database, db_tables_prefix, number_of_result_tables, \
         table_names
         
     
@@ -239,7 +242,6 @@ if __name__ == "__main__":
     
     proxy_ip = config.get(PROXY_SECTION, 'IP')
     proxy_port = config.getint(PROXY_SECTION, 'PORT')
-    proxy_max_result_tables = config.getint(PROXY_SECTION, 'MAX_RESULT_TABLES')
     
     db_host = config.get(DATABASE_SECTION, 'HOST')
     db_username = config.get(DATABASE_SECTION, 'USERNAME')
@@ -258,6 +260,4 @@ if __name__ == "__main__":
         else:
             tests = isolate_tests(tests)
     
-    drop_result_tables()
     run_tests(tests)   
-    drop_result_tables()
