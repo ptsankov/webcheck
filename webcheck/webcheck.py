@@ -27,12 +27,11 @@ def parse_test_file(file):
                 if request.startswith('GET'):
                     request = request.strip() + '\r\n\r\n'
                 requests.append(request)
-            if in_request:
+            if in_request and not line.startswith('Cookie'):
                 request += line.strip() + '\r\n'
             if line.startswith('========================================Request'):
                 in_request = True
                 request = ''            
-                  
     return requests
 
 def white_list(log_file):
@@ -174,8 +173,20 @@ def execute_request(request):
 #    sock.send(request)    
 #    sock.recv(4096)
 
+
+def num_edges(trie):
+    if len(trie.keys()) == 0:
+        return 0
+    N = 0
+    for child in trie.keys():
+        N += 1 + num_edges(trie[child])
+    return N
+
 def transform_tests(tests):
     trie = make_trie(tests)
+
+ 
+    
     T = []    
     S = [(trie, [])]
     c = 0
@@ -231,6 +242,13 @@ def run_tests(tests):
         test_time = end_test - start_test
         output('time:{},checkpoint:{},restore:{}'.format(test_time, checkpoint_time, restore_time))
 
+def print_tests(tests):
+    i = 1
+    for test in tests:
+        print 'Test', i
+        for request in test:
+            print request
+        print '------------------------------------'
 
 if __name__ == "__main__":
     global remove_duplicates, test_length, filter_extensions, \
@@ -272,13 +290,19 @@ if __name__ == "__main__":
     table_names = get_table_names()
     output_file = open(output_filename, 'a')
     
+
     tests = read_tests(path_to_tests)
     #tests = [['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'e'], ['a', 'f'] ]
+
+    print 'Tests size', sum([len(test) for test in tests])
     
     if isolation:
         if optimize_tests:
             tests = transform_tests(tests)
-        else:
+            print 'Optimized tests size', sum([len(test) for test in tests])
+        else:            
             tests = isolate_tests(tests)
+            print 'Isolated tests size', sum([len(test) for test in tests])
     
     run_tests(tests)   
+    
