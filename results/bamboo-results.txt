@@ -1,0 +1,3 @@
+time:0.882863044739,checkpoint:0,restore:0
+time:0.540642976761,checkpoint:0,restore:0
+time:0.791979074478,checkpoint:0,restore:0

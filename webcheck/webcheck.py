@@ -11,6 +11,10 @@ from subprocess import PIPE, Popen
 import MySQLdb
 import time
 
+def output(line):
+    print 'OUTPUT: {}'.format(line)
+    output_file.write(line + '\n')
+
 def parse_test_file(file):
     requests = []
     with open(file) as f:
@@ -201,23 +205,38 @@ def isolate_tests(tests):
     return [ ['checkpoint:init'] + tests[0]] + [ ['restore:init'] + t for t in tests[1:] ]
 
 def run_tests(tests):
+    i = 1
     for test in tests:
+        print ('Test {} out of {}'.format(i, len(tests)))
+        i += 1
+        start_test = time.time()
+        checkpoint_time = 0
+        restore_time = 0
         for request in test:
             if request.startswith('checkpoint'):
                 label = request.split(':')[1]
+                start_checkpoint = time.time()
                 checkpoint(label)
+                end_checkpoint = time.time()
+                checkpoint_time += (end_checkpoint - start_checkpoint)
             elif request.startswith('restore'):
                 label = request.split(':')[1]
+                start_restore = time.time()
                 restore(label)
+                end_restore = time.time()
+                restore_time += (end_restore - start_restore)
             else:
                 execute_request(request)
+        end_test = time.time()
+        test_time = end_test - start_test
+        output('time:{},checkpoint:{},restore:{}'.format(test_time, checkpoint_time, restore_time))
 
 
 if __name__ == "__main__":
     global remove_duplicates, test_length, filter_extensions, \
         checkpointing, application_ip, application_port, proxy_ip, proxy_port, \
         db_host, db_username, db_password, db_database, db_tables_prefix, number_of_result_tables, \
-        table_names
+        table_names, output_file
         
     
     if len(sys.argv) != 2:
@@ -235,7 +254,8 @@ if __name__ == "__main__":
     
     isolation = config.getboolean(EXECUTION_SECTION, 'ISOLATION')
     optimize_tests = config.getboolean(EXECUTION_SECTION, 'OPTIMIZE_TESTS')
-    checkpointing = config.getboolean(EXECUTION_SECTION, 'CHECKPOINTING')    
+    checkpointing = config.getboolean(EXECUTION_SECTION, 'CHECKPOINTING')
+    output_filename = config.get(EXECUTION_SECTION, 'OUTPUT')    
     
     application_ip = config.get(APPLICATION_SECTION, 'IP')
     application_port = config.getint(APPLICATION_SECTION, 'PORT')
@@ -250,6 +270,7 @@ if __name__ == "__main__":
     db_tables_prefix = config.get(DATABASE_SECTION, 'TABLES_PREFIX')
     
     table_names = get_table_names()
+    output_file = open(output_filename, 'a')
     
     tests = read_tests(path_to_tests)
     #tests = [['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'e'], ['a', 'f'] ]
