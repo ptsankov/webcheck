@@ -141,9 +141,7 @@ if __name__ == '__main__':
                         table_create = cursor_tr.fetchall() 
                              
                         create_table_command = table_create[0][1].lower().replace('create temporary table', 'create table').replace(query_result_template, 'RESULT_TABLE_NAME')
-                        print 'create table command is', create_table_command
                         create_table_command_cache[query] = create_table_command
-                        print create_table_command_cache
                                       
                         drop_temporary_table_query = 'drop temporary table {}'.format(query_result_template)
                         log(drop_temporary_table_query)
