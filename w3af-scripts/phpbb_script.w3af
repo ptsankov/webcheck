@@ -15,8 +15,8 @@ back
 crawl web_spider
 crawl config web_spider
 set only_forward True
-set ignore_regex .*mode=logout*  | */phpbb/adm*
-set follow_regex http://bellog.org/phpbb/*
+set ignore_regex .*mode=logout.*|.*adm.*|.*/styles.*|.*/asset.*
+set follow_regex http://bellog.org/phpbb/.*
 back
 
 auth detailed
@@ -29,12 +29,18 @@ set data_format %u=%U&%p=%P
 set auth_url http://bellog.org/phpbb/ucp.php?mode=login
 set method POST
 set check_url http://bellog.org/phpbb/index.php
-set check_string 'admin'
+#set check_string 'admin'
+set check_string '1 registered'
 set follow_redirects True
 back
 
 # from plugin
 back
+
+misc-settings
+set max_discovery_time 1
+back
+
 
 target
 set target http://bellog.org/phpbb/

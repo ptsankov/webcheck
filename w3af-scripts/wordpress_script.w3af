@@ -15,8 +15,8 @@ back
 crawl web_spider
 crawl config web_spider
 set only_forward True
-set ignore_regex .*action=logout*  | */wp-admin/profile*
-set follow_regex http://bellog.org/wordpress/*
+set ignore_regex .*action=logout.*|.*/wp-admin/profile.*
+set follow_regex http://bellog.org/wordpress/.*
 back
 
 auth detailed
@@ -35,6 +35,11 @@ back
 
 # from plugin
 back
+
+misc-settings
+set max_discovery_time 1
+back
+
 
 target
 set target http://bellog.org/wordpress/wp-admin/

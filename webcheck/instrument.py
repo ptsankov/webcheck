@@ -10,8 +10,9 @@ def php_instrumentation(proxy):
             if (!function_exists('mysql_query_old')) {
               runkit_function_copy ( 'mysql_query', 'mysql_query_old' );
               
-              runkit_function_redefine('mysql_query', '$query , $link_identifier=null', '// Modified mysql_query()
-              
+              runkit_function_redefine('mysql_query', '$query , $link_identifier=null', '// Modified mysql_query()                
+                if (stripos($query, "UPDATE") === 0 || stripos($query, "INSERT") === 0 || stripos($query, "DELETE") === 0) {
+                    print("an update query");
                  //--------------- Connect to proxy ----------------
                  $client = stream_socket_client("tcp://''' + proxy + '''", $errno, $errorMessage);
               
@@ -24,26 +25,30 @@ def php_instrumentation(proxy):
                  // Get response from proxy.
                  $response = stream_get_contents($client);
               
-                 if ($response == "true" or $response == "false") {
+                  #if ($response == "true" or $response == "false") {
                   if ($response == "true") {
                       $result = TRUE;
                   } else {
                       $result = FALSE;
                   }
-                 } else {
-                  $newQuery = $response;
-                  if (is_null($link_identifier)) {
-                    $result = mysql_query_old ( $newQuery);
-                  } else {
-                    $result = mysql_query_old ( $newQuery, $link_identifier);
-                  }
-                 }
+                  #} 
+                  #else {                  
+                    # $newQuery = $response;
+                    # if (is_null($link_identifier)) {
+                    #   $result = mysql_query_old ( $newQuery);
+                    # } else {
+                    #   $result = mysql_query_old ( $newQuery, $link_identifier);
+                    # }
+                  #}
               
                  // Close connection to proxy.
                  fclose($client);
-                 return $result;');
-            }
-            
+                } else {
+                  $result = mysql_query_old ($query);
+                }
+                 return $result;
+                '); 
+            }            
             // -------------
             '''
 

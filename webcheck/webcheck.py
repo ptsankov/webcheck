@@ -29,6 +29,8 @@ def parse_test_file(file):
                 requests.append(request)
             if in_request and not line.startswith('Cookie'):
                 request += line.strip() + '\r\n'
+            if in_request and line.startswith('Cookie'):
+                request += 'Cookie: {}\r\n'.format(cookie)
             if line.startswith('========================================Request'):
                 in_request = True
                 request = ''            
@@ -63,7 +65,8 @@ def filter_test(test, filter_extensions, allowed_urls):
     filtered_requests = []
     for request in test:
         url = request.split(' ')[1]
-        if url.split('.')[-1] in filter_extensions:
+        #if url.split('.')[-1] in filter_extensions:
+        if True in [x in url for x in filter_extensions]:
             continue
         if remove_duplicates and request in filtered_requests:
             continue
@@ -111,10 +114,12 @@ def checkpoint(label):
         print 'Checkpointing', label, sock.recv(2)
     else:
         dump_file = 'checkpoint_{}'.format(label)
-        runcmd('mysqldump -u {} -p{} {} {}'.format(db_username, db_password, db_database, ' '.join(table_names)), output=open(dump_file, 'w'))
+        #runcmd('mysqldump -u {} -p{} {} {}'.format(db_username, db_password, db_database, ' '.join(table_names)), output=open(dump_file, 'w'))
+        runcmd('mysqldump -u {} -p{} {}'.format(db_username, db_password, db_database), output=open(dump_file, 'w'))
     end_time = time.time()
     print 'Checkpoint time:', end_time - start_time    
-        
+
+'''        
 def get_table_names():
     db_connection = MySQLdb.connect(host=db_host, user=db_username, passwd=db_password, db=db_database)
     cursor = db_connection.cursor()    
@@ -124,6 +129,7 @@ def get_table_names():
     table_names_result = cursor.fetchall()
     table_names = [x[0] for x in table_names_result]
     return table_names
+'''
 
     
 def restore(label):
@@ -220,9 +226,13 @@ def run_tests(tests):
     for test in tests:
         print ('Test {} out of {}'.format(i, len(tests)))
         i += 1
+        
+        runcmd('mysql -u {} -p{} {}'.format(db_username, db_password, db_database), input='reset query cache; flush tables;')
+        
         start_test = time.time()
         checkpoint_time = 0
         restore_time = 0
+        http_time = 0
         for request in test:
             if request.startswith('checkpoint'):
                 label = request.split(':')[1]
@@ -237,10 +247,13 @@ def run_tests(tests):
                 end_restore = time.time()
                 restore_time += (end_restore - start_restore)
             else:
+                start_http = time.time()
                 execute_request(request)
+                end_http = time.time()
+                http_time += (end_http - start_http)
         end_test = time.time()
         test_time = end_test - start_test
-        output('time:{},checkpoint:{},restore:{}'.format(test_time, checkpoint_time, restore_time))
+        output('time:{},checkpoint:{},restore:{},http:{}'.format(test_time, checkpoint_time, restore_time, http_time))
 
 def print_tests(tests):
     i = 1
@@ -250,11 +263,21 @@ def print_tests(tests):
             print request
         print '------------------------------------'
 
+def measure_test_suites(tests):
+    optimized_tests = transform_tests(tests)
+    
+    print 'Test suite size', sum([len(test) for test in tests])
+    output('Test suite size' + str(sum([len(test) for test in tests])))
+    print 'Optimized test suite size', sum([len([q for q in test if not (q.startswith('checkpoint') or q.startswith('restore'))]) for test in optimized_tests])
+    output('Optimized test suite size' + str(sum([len([q for q in test if not (q.startswith('checkpoint') or q.startswith('restore'))]) for test in optimized_tests])))
+    print 'Number of checkpoints', sum([len([q for q in test if q.startswith('checkpoint')]) for test in optimized_tests])
+    output('Number of checkpoints' + str(sum([len([q for q in test if q.startswith('checkpoint')]) for test in optimized_tests])))
+
 if __name__ == "__main__":
     global remove_duplicates, test_length, filter_extensions, \
         checkpointing, application_ip, application_port, proxy_ip, proxy_port, \
-        db_host, db_username, db_password, db_database, db_tables_prefix, number_of_result_tables, \
-        table_names, output_file
+        db_host, db_username, db_password, db_database, number_of_result_tables, \
+        output_file, cookie
         
     
     if len(sys.argv) != 2:
@@ -269,6 +292,7 @@ if __name__ == "__main__":
     remove_duplicates = config.getboolean(TESTS_SECTION, 'REMOVE_DUPLICATES')
     test_length = config.getint(TESTS_SECTION, 'TEST_LENGTH')
     filter_extensions  = config.get(TESTS_SECTION, 'FILTER_EXTENSIONS').split(',')
+    cookie  = config.get(TESTS_SECTION, 'COOKIE')
     
     isolation = config.getboolean(EXECUTION_SECTION, 'ISOLATION')
     optimize_tests = config.getboolean(EXECUTION_SECTION, 'OPTIMIZE_TESTS')
@@ -285,16 +309,16 @@ if __name__ == "__main__":
     db_username = config.get(DATABASE_SECTION, 'USERNAME')
     db_password = config.get(DATABASE_SECTION, 'PASSWORD')
     db_database = config.get(DATABASE_SECTION, 'DATABASE')    
-    db_tables_prefix = config.get(DATABASE_SECTION, 'TABLES_PREFIX')
+#    db_tables_prefix = config.get(DATABASE_SECTION, 'TABLES_PREFIX')
     
-    table_names = get_table_names()
+    #table_names = get_table_names()
     output_file = open(output_filename, 'a')
     
 
     tests = read_tests(path_to_tests)
     #tests = [['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'e'], ['a', 'f'] ]
 
-    print 'Tests size', sum([len(test) for test in tests])
+    measure_test_suites(tests)
     
     if isolation:
         if optimize_tests:

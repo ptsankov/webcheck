@@ -27,13 +27,12 @@ if __name__ == '__main__':
     db_username = config.get(DATABASE_SECTION, 'USERNAME')
     db_password = config.get(DATABASE_SECTION, 'PASSWORD')
     db_database = config.get(DATABASE_SECTION, 'DATABASE')
-    db_tables_prefix = config.get(DATABASE_SECTION, 'TABLES_PREFIX')
         
     proxy_ip = config.get(PROXY_SECTION, 'IP')
     proxy_port = config.getint(PROXY_SECTION, 'PORT')
     proxy_max_connections = config.getint(PROXY_SECTION, 'MAX_CONNECTIONS')
 #    proxy_max_result_tables = config.getint(PROXY_SECTION, 'MAX_RESULT_TABLES')
-    result_tables_prefix = config.get(PROXY_SECTION, 'RESULT_TABLES_PREFIX')    
+#    result_tables_prefix = config.get(PROXY_SECTION, 'RESULT_TABLES_PREFIX')    
 
     debug = config.getboolean(PROXY_SECTION, 'DEBUG')
     
@@ -66,7 +65,7 @@ if __name__ == '__main__':
         cursor_tr.execute(query)            
         
             
-        
+        '''
         result_tables_query = 'show tables like "{}%"'.format(result_tables_prefix)
         log(result_tables_query)
         cursor.execute(result_tables_query)
@@ -79,6 +78,7 @@ if __name__ == '__main__':
             cursor.execute(drop_table_query)
         
         result_counter = 0
+        '''
     
         # -------
         #  LOOP
@@ -127,6 +127,8 @@ if __name__ == '__main__':
                     if sent == 0:
                         raise RuntimeError('Socket connection broken')
                 elif ('select' in query[:10]):
+                    raise NameError('Proxy should not receive select queries')
+                    '''
                     query = query.replace(';', '')                    
 
                     if query not in create_table_command_cache.keys():
@@ -171,7 +173,7 @@ if __name__ == '__main__':
                     clientsocket.close()
                     if sent == 0:
                         raise RuntimeError('Socket connection broken')
-                    
+                    '''
                 else: 
                     # UPDATE, DELETE, INSERT or some other query
                     # Execute query

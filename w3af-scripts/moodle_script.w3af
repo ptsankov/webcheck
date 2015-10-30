@@ -1,0 +1,55 @@
+#wordpress script
+plugins
+output console,text_file
+output config text_file
+set output_file output-w3af.txt
+set http_output_file output-w3af-http.txt
+set verbose True
+back
+output config console
+set verbose False
+back
+
+#audit xss
+
+crawl web_spider
+crawl config web_spider
+set only_forward True
+#set ignore_regex .*logout.* |  .*change_password.*  | .*logout\.php.* | .*settings\.php.* | .*backup\.php.* | .*restore\.php.* | .*langimport.* 
+set ignore_regex .*logout.*|.*change_password.*|.*settings.*|.*backup.*|.*restore.*|.*langimport.*
+set follow_regex http://bellog.org/moodle/.*
+back
+
+auth detailed
+auth config detailed
+set username admin
+set password Password-1
+set username_field username
+set password_field password
+set data_format %u=%U&%p=%P
+set auth_url http://bellog.org/moodle/login/index.php
+set method POST
+set check_url http://bellog.org/moodle/my/
+set check_string 'Admin User'
+set follow_redirects True
+back
+
+# from plugin
+back
+
+misc-settings
+set max_discovery_time 1
+back
+
+
+target
+set target http://bellog.org/moodle/
+back
+
+start
+
+exit
+
+
+
+

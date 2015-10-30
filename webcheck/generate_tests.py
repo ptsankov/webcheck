@@ -1,9 +1,17 @@
 #!/usr/bin/python
 
 import sys
-from utils import msg, W3AF_HTTP_OUPUT, W3AF_LOG_OUPUT, runcmd, BAMBOO_DB_DUMP,\
-    W3AF
 import shutil
+from webcheck import runcmd
+import random
+
+PACKET_FILE_EXTENSION = 'pcap'
+HTTP_FILTER = 'tcp and port 80'
+NET_IFACE = 'eth0'
+W3AF = '/home/mguarnieri/testing/w3af/w3af/w3af_console'
+
+W3AF_HTTP_OUPUT = 'output-w3af-http.txt'
+W3AF_LOG_OUPUT = 'output-w3af.txt'
 
 '''
 def generate_test(output_filename, test_length):
@@ -21,23 +29,24 @@ def generate_test(output_filename, test_length):
 if __name__ == "__main__":
     global w3af_script, num_tests, test_length
     if len(sys.argv) != 3:
-        msg('Usage: ' + sys.argv[0] + ' <w3af script> <number of test cases>')
+        print('Usage: ' + sys.argv[0] + ' <w3af script> <number of test cases>')
         sys.exit(-1)
     
     w3af_script = sys.argv[1]    
     try: 
         num_tests = int(sys.argv[2])
     except ValueError:
-        msg('Check your arguments')
+        print('Check your arguments')
         sys.exit(-1)
             
     for i in range(0, num_tests):
-        msg('Generating test case {}'.format(i))
+        test_id = random.randint(0,1000000)
+        print('Generating test case {}'.format(test_id))
         
-        msg('Run w3af')        
+        print('Run w3af')        
         cmd = 'sudo {} --script={}'.format(W3AF, w3af_script)
         runcmd(cmd)
     
-        msg('Copy files')        
-        shutil.copyfile(W3AF_HTTP_OUPUT, 'test{}_http.txt'.format(i))
-        shutil.copyfile(W3AF_LOG_OUPUT, 'test{}_log.txt'.format(i))
+        print('Copy files')        
+        shutil.copyfile(W3AF_HTTP_OUPUT, 'test{}_http.txt'.format(test_id))
+        shutil.copyfile(W3AF_LOG_OUPUT, 'test{}_log.txt'.format(test_id))

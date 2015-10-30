@@ -1,0 +1,55 @@
+#wordpress script
+plugins
+output console,text_file
+output config text_file
+set output_file output-w3af.txt
+set http_output_file output-w3af-http.txt
+set verbose True
+back
+output config console
+set verbose False
+back
+
+#audit xss
+
+crawl web_spider
+crawl config web_spider
+set only_forward True
+set ignore_regex *Special:UserLogout*  | *Special:Preferences* | *Special:PasswordReset*
+set follow_regex http://bellog.org/mediawiki/index.php*
+back
+
+auth detailed
+auth config detailed
+set username Admin
+set password password
+set username_field wpName
+set password_field wpPassword
+set data_format title %u=%U&%p=%P
+set auth_url http://bellog.org/mediawiki/index.php?title=Special:UserLogin&action=submitlogin&type=login&returnto=Main+Page
+set method POST
+set check_url http://bellog.org/mediawiki/index.php/Main_Page
+set check_string 'Log out'
+set follow_redirects False
+ #True
+back
+
+# from plugin
+back
+
+misc-settings
+set max_discovery_time 1
+back
+
+
+target
+set target http://bellog.org/mediawiki/index.php
+back
+
+start
+
+exit
+
+
+
+

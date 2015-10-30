@@ -15,8 +15,8 @@ back
 crawl web_spider
 crawl config web_spider
 set only_forward True
-set ignore_regex .*logout.* | */settings*
-set follow_regex http://bellog.org/bamboo/*
+set ignore_regex .*logout.*|.*/settings.*
+set follow_regex http://bellog.org/bamboo/.*
 back
 
 auth detailed
@@ -34,6 +34,10 @@ set follow_redirects True
 back
 
 # from plugin
+back
+
+misc-settings
+set max_discovery_time 1
 back
 
 target
