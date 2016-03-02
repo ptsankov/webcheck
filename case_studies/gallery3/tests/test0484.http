@@ -1,0 +1,117 @@
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/EePtFCBh.htm HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/YP1Gf9uf.py HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/VlJaEJsz.asp HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/6PGoorrP.foobar HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/owrQe93H.gif HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/QPZCcvWl.cgi HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/1oi7ME2N.do HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/5HwY6yGe.jsp HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/NimYA2tI.pl HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/KLAS5FKj.xhtml HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/3c9D5tpZ.htmls HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/7tQQuCJs.rb HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/7ggcBopL.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/n6YBEKVW.aspx HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 277
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+g2_return=/gallery/main.php?&g2_formUrl=/gallery/main.php?g2_view=core.UserAdmin&g2_subView=core.UserLogin&g2_authToken=865cb4d33783&g2_controller=core.UserLogin&g2_form[formName]=UserLogin&g2_form[action][login]=Login&g2_form%5Busername%5D=admin&g2_form%5Bpassword%5D=password
+GET http://bellog.org/gallery/main.php?g2_GALLERYSID=454e9711be529a76197372192039ca43 HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+

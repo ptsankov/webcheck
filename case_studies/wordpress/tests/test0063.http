@@ -1,0 +1,1060 @@
+GET http://bellog.org/wordpress/wp-admin/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/wordpress/wp-login.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 19
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+log=admin&pwd=admin
+GET http://bellog.org/wordpress/wp-admin/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/n1kORHYE.do HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/yL4w71yO.gif HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/iZDJoonQ.asp HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/J6xsmvew.htmls HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/ACDz31VT.jsp HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/Jdg44CNe.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/0nWj6xab.foobar HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/EVyDG2wE.cgi HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/mvxyPK2m.xhtml HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/n7vIKwZ4.py HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/at6eNRvx.rb HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/riCTAJVF.htm HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/L2mdihsB.aspx HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/ogIkvWhF.pl HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/plugin-editor.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post-new.php?post_type=page HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit-comments.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/nav-menus.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/themes.php?page=custom-header HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/tools.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/?welcome=0 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/users.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/export.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit.php?post_type=page HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-styles.php?c=0&dir=ltr&load=dashicons%2Cadmin-bar%2Cwp-admin%2Cbuttons%2Cwp-auth-check&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post.php?post=1&action=edit HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit-tags.php?taxonomy=post_tag HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/import.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-reading.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-media.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/themes.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/index.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/user-new.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-permalink.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/media-new.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-discussion.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/wordpress/wp-admin/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 307
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+screenoptionnonce=471678559d&dashboard_quick_press-hide=dashboard_quick_press&dashboard_browser_nag-hide=dashboard_browser_nag&dashboard_activity-hide=dashboard_activity&welcomepanelnonce=5f5de1dcb5&dashboard_right_now-hide=dashboard_right_now&wp_welcome_panel-hide=&dashboard_primary-hide=dashboard_primary
+GET http://bellog.org/wordpress/wp-admin/widgets.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/profile.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-general.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-writing.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/theme-editor.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2F&autofocus%5Bcontrol%5D=header_image HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2F HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/themes.php?page=custom-background HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/admin-ajax.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-scripts.php?c=0&load%5B%5D=hoverIntent%2Ccommon%2Cadmin-bar%2Cwp-ajax-response%2Cjquery-color%2Cwp-lists%2Cquicktags%2Cjquery-query%2Cadmin-comments%2Cjquery-ui-core%2Cjquery-&load%5B%5D=ui-widget%2Cjquery-ui-mouse%2Cjquery-ui-sortable%2Cpostbox%2Cdashboard%2Cunderscore%2Ccustomize-base%2Ccustomize-loader%2Cthickbox%2Cplugin-instal&load%5B%5D=l%2Cshortcode%2Cmedia-upload%2Csvg-painter%2Cheartbeat%2Cwp-auth-check&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post-new.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/about.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/upload.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/wordpress/wp-admin/post.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 226
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+meta-box-order-nonce=7f147a0730&closedpostboxesnonce=26c194e520&post_title=Hello%20World&_wpnonce=c8f7176bd3&post_ID=2027&_wp_http_referer=%2Fwordpress%2Fwp-admin%2F&post_type=post&action=post-quickdraft-save&save=Save%20Draft
+GET http://bellog.org/wordpress/wp-admin/plugin-editor.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post.php?post=2027&action=edit HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit.php?post_type=post HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit-tags.php?taxonomy=category HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit-comments.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/update-core.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/tools.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/plugin-install.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/plugins.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post-new.php?post_type=page HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core%2Cjquery-migrate%2Cutils&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2F&autofocus%5Bcontrol%5D=background_image HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/themes.php?page=custom-header HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/nav-menus.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/?welcome=0 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/users.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/export.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit.php?post_type=page HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-styles.php?c=0&dir=ltr&load=dashicons%2Cadmin-bar%2Cwp-admin%2Cbuttons%2Cwp-auth-check&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post.php?post=1&action=edit HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit-tags.php?taxonomy=post_tag HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/import.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-media.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-reading.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/index.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/media-new.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-discussion.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-permalink.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/themes.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/user-new.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/widgets.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/profile.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-general.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/options-writing.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/theme-editor.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2F&autofocus%5Bcontrol%5D=header_image HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/themes.php?page=custom-background HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2F HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/admin-ajax.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-scripts.php?c=0&load%5B%5D=hoverIntent%2Ccommon%2Cadmin-bar%2Cwp-ajax-response%2Cjquery-color%2Cwp-lists%2Cquicktags%2Cjquery-query%2Cadmin-comments%2Cjquery-ui-core%2Cjquery-&load%5B%5D=ui-widget%2Cjquery-ui-mouse%2Cjquery-ui-sortable%2Cpostbox%2Cdashboard%2Cunderscore%2Ccustomize-base%2Ccustomize-loader%2Cthickbox%2Cplugin-instal&load%5B%5D=l%2Cshortcode%2Cmedia-upload%2Csvg-painter%2Cheartbeat%2Cwp-auth-check&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post-new.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/about.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/upload.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post.php?post=2027&action=edit HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core%2Cjquery-migrate%2Cutils%2Cplupload&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-styles.php?c=0&dir=ltr&load=dashicons%2Cadmin-bar%2Cbuttons%2Cmedia-views%2Cwp-admin%2Cwp-auth-check&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/media-upload.php?post_id=2027&type=image&TB_iframe=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-scripts.php?c=0&load%5B%5D=hoverIntent%2Ccommon%2Cadmin-bar%2Cheartbeat%2Cautosave%2Cwp-ajax-response%2Cjquery-color%2Cwp-lists%2Cquicktags%2Cjquery-query%2Cadmin-comments%2Csug&load%5B%5D=gest%2Cjquery-ui-core%2Cjquery-ui-widget%2Cjquery-ui-mouse%2Cjquery-ui-sortable%2Cpostbox%2Ctags-box%2Cunderscore%2Cword-count%2Cpost%2Cthickbox%2Csho&load%5B%5D=rtcode%2Cbackbone%2Cwp-util%2Cwp-backbone%2Cmedia-models%2Cwp-plupload%2Cmediaelement%2Cwp-mediaelement%2Cmedia-views%2Cmedia-editor%2Cmedia-audiovi&load%5B%5D=deo%2Cmce-view%2Cimgareaselect%2Cimage-edit%2Csvg-painter%2Cwp-auth-check%2Ceditor%2Cwplink%2Cmedia-upload&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post.php?post=2027&action=trash&_wpnonce=d3de1464ab HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post.php?post=2027 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2Fpost.php%3Fpost%3D2027&action=edit&autofocus%5Bcontrol%5D=background_image HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2Fpost.php%3Fpost%3D2027&action=edit&autofocus%5Bcontrol%5D=header_image HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2Fpost.php%3Fpost%3D2027&action=edit HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit.php?post_type=post HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/edit-tags.php?taxonomy=category HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/update-core.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/plugin-install.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/plugins.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core%2Cjquery-migrate%2Cutils&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2F&autofocus%5Bcontrol%5D=background_image HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post.php?wp-link-submit=Add%20Link&wp-link-text=&wp-link-url=&wp-link-search=&wp-link-target=&_ajax_linking_nonce=74334b03d0 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-scripts.php?c=0&load%5B%5D=jquery-core%2Cjquery-migrate%2Cutils%2Cplupload&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/media-upload.php?post_id=2027&type=image&TB_iframe=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-styles.php?c=0&dir=ltr&load=dashicons%2Cadmin-bar%2Cbuttons%2Cmedia-views%2Cwp-admin%2Cwp-auth-check&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post.php?post=2027&action=trash&_wpnonce=d3de1464ab HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/load-scripts.php?c=0&load%5B%5D=hoverIntent%2Ccommon%2Cadmin-bar%2Cheartbeat%2Cautosave%2Cwp-ajax-response%2Cjquery-color%2Cwp-lists%2Cquicktags%2Cjquery-query%2Cadmin-comments%2Csug&load%5B%5D=gest%2Cjquery-ui-core%2Cjquery-ui-widget%2Cjquery-ui-mouse%2Cjquery-ui-sortable%2Cpostbox%2Ctags-box%2Cunderscore%2Cword-count%2Cpost%2Cthickbox%2Csho&load%5B%5D=rtcode%2Cbackbone%2Cwp-util%2Cwp-backbone%2Cmedia-models%2Cwp-plupload%2Cmediaelement%2Cwp-mediaelement%2Cmedia-views%2Cmedia-editor%2Cmedia-audiovi&load%5B%5D=deo%2Cmce-view%2Cimgareaselect%2Cimage-edit%2Csvg-painter%2Cwp-auth-check%2Ceditor%2Cwplink%2Cmedia-upload&ver=4.3.1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/post.php?post=2027 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2Fpost.php%3Fpost%3D2027&action=edit&autofocus%5Bcontrol%5D=background_image HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2Fpost.php%3Fpost%3D2027&action=edit&autofocus%5Bcontrol%5D=header_image HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/wordpress/wp-admin/customize.php?return=%2Fwordpress%2Fwp-admin%2Fpost.php%3Fpost%3D2027&action=edit HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+

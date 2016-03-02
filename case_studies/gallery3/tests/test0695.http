@@ -1,0 +1,1713 @@
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 277
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+g2_return=/gallery/main.php?&g2_formUrl=/gallery/main.php?g2_view=core.UserAdmin&g2_subView=core.UserLogin&g2_authToken=865cb4d33783&g2_controller=core.UserLogin&g2_form[formName]=UserLogin&g2_form[action][login]=Login&g2_form%5Busername%5D=admin&g2_form%5Bpassword%5D=password
+GET http://bellog.org/gallery/main.php?g2_GALLERYSID=37a2d1e0bff3e18b05d16d2f227ac926 HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/jzCty5bP.pl HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/1tGjI3xV.gif HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/qTX0hc4i.jsp HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/I0z2o0xv.do HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/33jfYN5D.xhtml HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/Lt1ZKamP.aspx HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/oW2yOSza.htm HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/QWXdfrlN.asp HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/s7rBnzcX.cgi HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/2I4JhcaP.py HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/KKEygv0u.rb HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/aiGrYto2.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/t3nsj0jZ.foobar HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/4KKErEDU.htmls HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_controller=core.ShowItem&g2_guestPreviewMode=1&g2_return=%2Fgallery%2Fmain.php&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=comment.AddComment&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemAddAlbum&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemPermissions&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemDeleteJs&g2_lang=en_US HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemAdd&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=comment.ShowAllComments&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=0da6bfcb1cc414411491614a9d28560f HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemAdd&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_return=%2Fgallery%2Fmain.php&g2_form%5BformName%5D=search_SearchBlock&g2_form%5BuseDefaultSettings%5D=1&g2_formUrl=%2Fgallery%2Fmain.php&g2_view=search.SearchScan&g2_form%5BsearchCriteria%5D=Search%20the%20Gallery&g2_authToken=b68867560ece HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=c129ce38a587579eb8a5fdbf0bde4fb5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_controller=core.ShowItem&g2_guestPreviewMode=1&g2_return=%2Fgallery%2Fmain.php&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemAddAlbum&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=1f3a86aa6c3e732ce434cbc51ebf93d2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemAddAlbum&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=comment.ShowComments&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemPermissions&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemDeleteJs&g2_lang=en_US HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=comment.ShowAllComments&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.ShowAllComments&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.ShowAllComments&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=704ee4384d972c3adc2835b6f9c9926b HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=0da6bfcb1cc414411491614a9d28560f HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=a1e9868949ca242474af7a7effef3037 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminPerformance HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminLanguageManager HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=keyalbum.KeywordAlbumSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=rating.RatingSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=comment.CommentSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=icons.IconsSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemPermissions&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemAddAlbum&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemPermissions&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=febd2c8680ce35a971182595453c55fb HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan&g2_form%5BuseDefaultSettings%5D=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditTheme HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditAlbum HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=comment.AddComment&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminEventLogViewer HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.AddComment&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.AddComment&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=comment.AdminModerateSpam HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminUsers HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemAdd&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemAdd&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemAdd&g2_itemId=7&g2_return=%2Fgallery%2Fmain.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 533
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+g2_return=%2Fgallery%2Fmain.php&g2_form%5BformName%5D=SearchScan&g2_controller=search.SearchScan&g2_formUrl=%2Fgallery%2Fmain.php&g2_form%5Boptions%5D%5BGalleryCoreSearch%5D%5Bkeywords%5D=&g2_form%5Boptions%5D%5BGalleryCoreSearch%5D%5Bsummaries%5D=&g2_form%5BsearchCriteria%5D=Search%20the%20Gallery&g2_authToken=b68867560ece&g2_form%5Baction%5D%5Bsearch%5D=Search&g2_form%5Boptions%5D%5BGalleryCoreSearch%5D%5Bdescriptions%5D=&g2_form%5Boptions%5D%5Bcomment%5D%5Bcomments%5D=&g2_form%5Boptions%5D%5BGalleryCoreSearch%5D%5Btitles%5D=
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminPlugins HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_controller=core.ShowItem&g2_guestPreviewMode=0&g2_return=%2Fgallery%2Fmain.php&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=c129ce38a587579eb8a5fdbf0bde4fb5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=1f3a86aa6c3e732ce434cbc51ebf93d2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemAddAlbum&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemAddAlbum&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=comment.ShowComments&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=comment.ShowComments&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditItem HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemPermissions&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_return=%2Fgallery%2Fmain.php&g2_form%5BformName%5D=search_SearchBlock&g2_form%5BuseDefaultSettings%5D=1&g2_formUrl=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.ShowAllComments%26g2_itemId%3D7&g2_view=search.SearchScan&g2_form%5BsearchCriteria%5D=Search%20the%20Gallery&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.ShowAllComments&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.ShowAllComments&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=604749f9bef41c445303ec03a499f70f HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=704ee4384d972c3adc2835b6f9c9926b HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=a1e9868949ca242474af7a7effef3037 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminPerformance HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminPerformance HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminLanguageManager HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=86f62aaa3aeccf6f0f75f3a3155d9581 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminLanguageManager HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=comment.CommentSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=rating.RatingSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=icons.IconsSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=keyalbum.KeywordAlbumSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=comment.CommentSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=rating.RatingSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=rating.RatingAlbum&g2_limit=3.5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=keyalbum.KeywordAlbumSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=icons.IconsSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemAddAlbum&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemPermissions&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemPermissions&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_return=%2Fgallery%2Fmain.php&g2_form%5BformName%5D=search_SearchBlock&g2_form%5BuseDefaultSettings%5D=1&g2_formUrl=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan%26g2_form%255BuseDefaultSettings%255D%3D1&g2_view=search.SearchScan&g2_form%5BsearchCriteria%5D=Search%20the%20Gallery&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=febd2c8680ce35a971182595453c55fb HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan&g2_form%5BuseDefaultSettings%5D=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_form%5BuseDefaultSettings%5D=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditAlbum HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditAlbum HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemEdit&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditTheme HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditItem HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditTheme HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditTheme HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminEventLogViewer HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminEventLogViewer HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_return=%2Fgallery%2Fmain.php&g2_form%5BformName%5D=search_SearchBlock&g2_form%5BuseDefaultSettings%5D=1&g2_formUrl=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.AddComment%26g2_itemId%3D7&g2_view=search.SearchScan&g2_form%5BsearchCriteria%5D=Search%20the%20Gallery&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.AddComment&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.AddComment&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=comment.AdminModerateSpam HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=comment.AdminModerateSpam HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminUsers HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminEditUser&g2_userId=5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminUsers HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminEditUser&g2_userId=6 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemAdd&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemAdd&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_controller=core.ShowItem&g2_guestPreviewMode=0&g2_return=%2Fgallery%2Fmain.php&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemAddAlbum&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=comment.ShowComments&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=comment.ShowComments&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditItem HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditItem HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.ShowAllComments&g2_form%5BformName%5D=search_SearchBlock&g2_form%5BuseDefaultSettings%5D=1&g2_formUrl=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan%26g2_form%255BuseDefaultSettings%255D%3D1%26g2_itemId%3D7&g2_view=search.SearchScan&g2_form%5BsearchCriteria%5D=Search%20the%20Gallery&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_form%5BuseDefaultSettings%5D=1&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=604749f9bef41c445303ec03a499f70f HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminPerformance HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.CombinedJavascript&g2_key=86f62aaa3aeccf6f0f75f3a3155d9581 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminLanguageManager HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=comment.CommentSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=rating.RatingSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=rating.RatingAlbum&g2_limit=3.5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_controller=core.ShowItem&g2_guestPreviewMode=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Drating.RatingAlbum&g2_limit=3.5&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Drating.RatingAlbum&g2_limit=3.5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Drating.RatingAlbum&g2_limit=3.5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=keyalbum.KeywordAlbumSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=icons.IconsSiteAdmin HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemPermissions&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan&g2_form%5BformName%5D=search_SearchBlock&g2_form%5BuseDefaultSettings%5D=1&g2_formUrl=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan%26g2_form%255BuseDefaultSettings%255D%3D1&g2_view=search.SearchScan&g2_form%5BsearchCriteria%5D=Search%20the%20Gallery&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_form%5BuseDefaultSettings%5D=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditAlbum HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditAlbum HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemEdit&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditTheme HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditTheme HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditItem HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditItem HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditTheme HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditTheme HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditAlbum HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminEventLogViewer HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcomment.AddComment&g2_form%5BformName%5D=search_SearchBlock&g2_form%5BuseDefaultSettings%5D=1&g2_formUrl=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan%26g2_form%255BuseDefaultSettings%255D%3D1%26g2_itemId%3D7&g2_view=search.SearchScan&g2_form%5BsearchCriteria%5D=Search%20the%20Gallery&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=comment.AdminModerateSpam HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminEditUser&g2_userId=5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminEditUser&g2_userId=5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminUsers HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_subView=core.AdminEditUser&g2_userId=6 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminEditUser&g2_userId=6 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemAdd&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=comment.ShowComments&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditItem HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditItem HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_form%5BuseDefaultSettings%5D=1&g2_itemId=7 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan&g2_form%5BformName%5D=search_SearchBlock&g2_form%5BuseDefaultSettings%5D=1&g2_formUrl=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan%26g2_form%255BuseDefaultSettings%255D%3D1%26g2_itemId%3D7&g2_view=search.SearchScan&g2_form%5BsearchCriteria%5D=Search%20the%20Gallery&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Drating.RatingAlbum%26g2_limit%3D3.5&g2_form%5BformName%5D=search_SearchBlock&g2_form%5BuseDefaultSettings%5D=1&g2_formUrl=%2Fgallery%2Fmain.php%3Fg2_view%3Drating.RatingAlbum%26g2_limit%3D3.5&g2_view=search.SearchScan&g2_form%5BsearchCriteria%5D=Search%20the%20Gallery&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_controller=core.ShowItem&g2_guestPreviewMode=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Drating.RatingAlbum&g2_limit=3.5&g2_authToken=b68867560ece HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=rating.RatingAlbum HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Drating.RatingAlbum&g2_limit=3.5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_limit=3.5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Drating.RatingAlbum&g2_limit=3.5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=search.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_form%5BuseDefaultSettings%5D=1&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan&g2_limit=3.5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan&g2_form%5BuseDefaultSettings%5D=1&g2_limit=3.5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditAlbum HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditTheme HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditTheme HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditItem HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditItem HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.ItemEdit&g2_itemId=7&g2_editPlugin=ItemEditTheme HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditAlbum HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.ItemAdmin&g2_subView=core.ItemEdit&g2_itemId=&g2_editPlugin=ItemEditAlbum HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminEditUser&g2_userId=5 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php?g2_view=core.SiteAdmin&g2_return=%2Fgallery%2Fmain.php%3Fg2_view%3Dcore.SiteAdmin&g2_subView=core.AdminEditUser&g2_userId=6 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/gallery/main.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+

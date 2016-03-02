@@ -1,0 +1,1120 @@
+GET http://bellog.org/phpbb/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/phpbb/ucp.php?mode=login HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 32
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=admin&password=password
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/TnuXFSCd.cgi HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ir3jcyMS.htm HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/gsMEjpkV.do HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/LePRt32x.htmls HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/2kl2lMXK.asp HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/BkmccfUL.xhtml HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/4TQj9ptp.py HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/tbj9sQ1a.aspx HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/J0fOJbIL.gif HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/UzRu4G4o.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/oomlE17U.rb HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/VMan91a9.jsp HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/WwJdMrSC.pl HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/BJVoRJzr.foobar HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/phpbb/ucp.php?mode=login HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 32
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=admin&password=password
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?keywords= HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/phpbb/ucp.php?mode=login HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 84
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=John8212&redirect=.%2Findex.php%3F&login=Login&password=FrAmE30.&autologin=
+GET http://bellog.org/phpbb/ucp.php?mode=privacy HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=sendpassword HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=terms HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=confirm&confirm_id=b01873fcb4caba7c90f455b6d9e84bcc&type=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/cup.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/faq.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/feed.php?mode=topics HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/feed.php?mode=news HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=register HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=delete_cookies HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=privacy HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=sendpassword HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/feed.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=terms HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=confirm&confirm_id=b01873fcb4caba7c90f455b6d9e84bcc&type=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=team HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/feed.php?mode=news HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?reset=Reset&ch=200&terms=all&author=&sr=posts&submit=Search&st=365&sk=i&sc=1&fid%5B%5D=1&t=0&keywords=&sf=msgonly&sd=a HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/feed.php?mode=topics HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=register HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?search_id=active_topics HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=delete_cookies HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/faq.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=delete_cookies&confirm_key=AKO78JODCX HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?st=365&sk=i&sd=a&sr=posts&sf=msgonly&ch=200 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/feed.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?search_id=unanswered HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=team HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/phpbb/search.php?st=365&sk=i&sd=a&sr=posts&sf=msgonly&ch=200 HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 23
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+sk=a&sort=Go&sd=a&st=14
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/phpbb/ucp.php?mode=login HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 32
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=admin&password=password
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=delete_cookies&confirm_key=AKO78JODCX HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?search_id=active_topics HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?st=365&sk=i&sd=a&sr=posts&sf=msgonly&ch=200 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?reset=Reset&ch=200&terms=all&author=&sr=posts&submit=Search&st=365&sk=i&sc=1&fid%5B%5D=1&t=0&keywords=&sf=msgonly&sd=a HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?st=7&sk=t&sd=d&sr=topics&search_id=active_topics HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?search_id=unanswered HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewtopic.php?f=2&t=1&p=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewtopic.php?f=2&t=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?st=7&sk=t&sd=d&sr=topics&search_id=active_topics HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?st=0&sk=t&sd=d&sr=topics&search_id=unanswered HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/phpbb/ucp.php?mode=login HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 32
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=admin&password=password
+GET http://bellog.org/phpbb/viewtopic.php?f=2&t=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewtopic.php?f=2&t=1&p=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/feed.php?f=2&t=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/feed.php?f=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/posting.php?mode=quote&f=2&p=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/feed.php?f=2&t=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/feed.php?f=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewtopic.php?f=2&t=1&view=print HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewtopic.php?p=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/posting.php?mode=reply&f=2&t=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewtopic.php?t=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?st=0&sk=t&sd=d&sr=topics&search_id=unanswered HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/posting.php?mode=quote&f=2&p=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?author_id=2&sr=posts HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?keywords=&t=1&sf=msgonly HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewtopic.php?f=2&t=1&view=print HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewtopic.php?p=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/posting.php?mode=reply&f=2&t=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewtopic.php?t=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?author_id=2&sr=posts HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?reset=Reset&ch=200&terms=all&author=&sr=posts&submit=Search&st=365&sk=i&sc=1&fid%5B%5D=1&t=1&keywords=&sf=msgonly&sd=a HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?st=0&sk=t&sd=d&sr=posts&author_id=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?st=365&sk=i&sd=a&sr=posts&t=1&sf=msgonly&ch=200 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/phpbb/ucp.php?mode=login HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 32
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=admin&password=password
+GET http://bellog.org/phpbb/search.php?st=0&sk=t&sd=d&sr=posts&author_id=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?st=365&sk=i&sd=a&sr=posts&t=1&sf=msgonly&ch=200 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/ucp.php?mode=login HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/phpbb/ucp.php?mode=login HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 32
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=admin&password=password
+GET http://bellog.org/phpbb/ucp.php?mode=login HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=9548402 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=6062431 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=6421926 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=9548402 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=6062431 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=6421926 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=6277316 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=1141874 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=1115195 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=1840448 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=6277316 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=1141874 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=3178991 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewforum.php?f=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewforum.php?f=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewtopic.php?f=2&p=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=viewprofile&u=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=5230809 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=6982301 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=1115195 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=1840448 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=3178991 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewforum.php?f=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewforum.php?f=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewtopic.php?f=2&p=1 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=viewprofile&u=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/posting.php?mode=post&f=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=5230809 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/memberlist.php?mode=group&g=6982301 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/search.php?keywords=&fid%5B0%5D=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/phpbb/viewforum.php?f=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 23
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+sk=a&sort=Go&sd=a&st=14
+GET http://bellog.org/phpbb/viewforum.php?f=2&st=14&sk=a&sd=a HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/phpbb/ucp.php?mode=login HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 32
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=admin&password=password
+GET http://bellog.org/phpbb/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/posting.php?mode=post&f=2 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/phpbb/viewforum.php?f=2&st=14&sk=a&sd=a HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+

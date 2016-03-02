@@ -1,0 +1,4260 @@
+GET http://bellog.org/bamboo/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/login HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 29
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=a%40a.com&password=s
+GET http://bellog.org/bamboo/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/iVJy8ScX.aspx HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/dKBpF1Fx.gif HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/2MeXoLaa.foobar HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/yST39teB.do HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/SsPfYt6E.asp HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/QMmpaKbi.htm HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/8S76POkP.cgi HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/QW5JUtrt.py HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/TykUhgAw.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/ESTqrMb4.xhtml HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/beIKyE7k.htmls HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/HL95Rg4X.pl HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/WMvXir0E.rb HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/XjcgolKE.jsp HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/help HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/donate HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/logout/confirm HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/accounts HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/ehpl HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/settings HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/newinvoice_first HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/tulitieis HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/logout/ocfnrim HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/caocnust HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/odanet HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/clients/encwilnet HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/clients HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/eniwvnioec_frits HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 95
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 97
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=56
+GET http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/newinvoice HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 169
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=mhkko%3C%2F-%3Emhkko%2F%2Amhkko%22mhkkomhkko%27mhkkomhkko%60mhkkomhkko%20%3D&client_id=344&newClient=56
+GET http://bellog.org/bamboo/index.php/clients/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=trcbd%27trcbd&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=6alge%2F%2A&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=7rlxf%227rlxf&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=jrhcq%60jrhcq&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=3kct9%3C%2F-%3E&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=rgkk4%20%3D&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 170
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=fqdiv%3C%2F-%3Efqdiv%2F%2Afqdiv%22fqdivfqdiv%27fqdivfqdiv%60fqdivfqdiv%20%3D&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 105
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=7rftr%2F%2A&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 105
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=zvtrf%20%3D&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 109
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=pfy62%3C%2F-%3E&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 107
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=yb0wu%27yb0wu&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 107
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=mcqxh%60mcqxh&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 107
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=mmcdp%22mmcdp&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 95
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 171
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=sqihq%3C%2F-%3Esqihq%2F%2Asqihq%22sqihqsqihq%27sqihqsqihq%60sqihqsqihq%20%3D
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 169
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=9jsqf%3C%2F-%3E9jsqf%2F%2A9jsqf%229jsqf9jsqf%279jsqf9jsqf%609jsqf9jsqf%20%3D&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=wm3tv%2F%2A&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=h3u4r%20%3D
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=39pul%6039pul&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=wx5h1%2F%2A
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=ndvpt%22ndvpt&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=cvgx0%27cvgx0
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=vw8qb%60vw8qb
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=flyag%20%3D&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=ahtek%22ahtek
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 110
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=cmwhh%3C%2F-%3E
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=5sjyt%275sjyt&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=0lfpy%3C%2F-%3E&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 157
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=fm6l6%3C%2F-%3Efm6l6%2F%2Afm6l6%22fm6l6fm6l6%27fm6l6fm6l6%60fm6l6fm6l6%20%3D&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 95
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 170
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=hxabt%3C%2F-%3Ehxabt%2F%2Ahxabt%22hxabthxabt%27hxabthxabt%60hxabthxabt%20%3D&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 96
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=e65hk%3C%2F-%3E&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 169
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=eqhmi%3C%2F-%3Eeqhmi%2F%2Aeqhmi%22eqhmieqhmi%27eqhmieqhmi%60eqhmieqhmi%20%3D&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 94
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=0nlkt%270nlkt&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 92
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=yshlv%20%3D&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 94
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=ionco%60ionco&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 92
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=87lz1%2F%2A&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 94
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=rf6ox%22rf6ox&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 105
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=uzyv3%20%3D&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 109
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=hcwnd%3C%2F-%3E&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 105
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=jebvn%2F%2A&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 107
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=rqleg%22rqleg&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 107
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=kaibj%27kaibj&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 107
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=jr2ym%60jr2ym&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=03epf%2203epf&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=c5bcw%20%3D&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=nvaly%60nvaly&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=jnpmr%27jnpmr&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=iwh5r%3C%2F-%3E&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=zpaa3%2F%2A&client_id=479&newClient=56
+GET http://bellog.org/bamboo/index.php/invoices HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 167
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=9bxjw%3C%2F-%3E9bxjw%2F%2A9bxjw%229bxjw9bxjw%279bxjw9bxjw%609bxjw9bxjw%20%3D&newInvoice=TRUE&client_id=344&newClient=56
+GET http://bellog.org/bamboo/index.php/invoices HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 170
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=xws7x%3C%2F-%3Exws7x%2F%2Axws7x%22xws7xxws7x%27xws7xxws7x%60xws7xxws7x%20%3D&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 171
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=qqtwg%3C%2F-%3Eqqtwg%2F%2Aqqtwg%22qqtwgqqtwg%27qqtwgqqtwg%60qqtwgqqtwg%20%3D
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=xmk2n%22xmk2n&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=em6e2%3C%2F-%3E&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 102
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=ldi7h%2F%2A&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=h5hhl%27h5hhl&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 102
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=ojw2c%20%3D&newInvoice=TRUE&client_id=344&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=xnybl%60xnybl&newInvoice=TRUE&client_id=344&newClient=56
+GET http://bellog.org/bamboo/index.php/help HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 107
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=o4qyw%60o4qyw&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=qnmsr%20%3D
+GET http://bellog.org/bamboo/index.php/help HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 105
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=4f2ss%2F%2A&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 105
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=xwyjo%20%3D&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 107
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=jmtfg%22jmtfg&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 109
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=ndttx%3C%2F-%3E&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=gqyi9%22gqyi9
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 107
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=hxekv%27hxekv&newClient=56
+GET http://bellog.org/bamboo/index.php/invoices/overdue HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=do1f4%2F%2A
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 110
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=u7kky%3C%2F-%3E
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=augyh%27augyh
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=vxnfu%60vxnfu
+GET http://bellog.org/bamboo/index.php/changelog HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/credits HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/closed HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/view/6 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/all HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/open HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/view/9 HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 171
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=8febf%3C%2F-%3E8febf%2F%2A8febf%228febf8febf%278febf8febf%608febf8febf%20%3D
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 157
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=60zy8%3C%2F-%3E60zy8%2F%2A60zy8%2260zy860zy8%2760zy860zy8%6060zy860zy8%20%3D&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 110
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=so3kc%3C%2F-%3E
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=tjipw%22tjipw
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=rzlna%27rzlna
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=e9g4n%20%3D
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 108
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=tzje0%60tzje0
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=drmii%2F%2A
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 94
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=zj4gl%60zj4gl&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 92
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=pvtzx%2F%2A&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 96
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=yutfe%3C%2F-%3E&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 92
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=owpam%20%3D&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 94
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=m3tac%22m3tac&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 94
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=trkoj%27trkoj&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=202&newClient=56
+GET http://bellog.org/bamboo/index.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/settings HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 157
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=mcs4h%3C%2F-%3Emcs4h%2F%2Amcs4h%22mcs4hmcs4h%27mcs4hmcs4h%60mcs4hmcs4h%20%3D&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=56
+GET http://bellog.org/bamboo/index.php/settings HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 167
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=jdlno%3C%2F-%3Ejdlno%2F%2Ajdlno%22jdlnojdlno%27jdlnojdlno%60jdlnojdlno%20%3D&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 92
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=9dsz7%20%3D&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 94
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=dbzks%27dbzks&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 92
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=ghdrh%2F%2A&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 94
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=hetk5%22hetk5&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 96
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=thazc%3C%2F-%3E&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 94
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=bgkwp%60bgkwp&newinvoicecancel=Cancel&newInvoice=TRUE&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 102
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=dxtzs%20%3D&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=d9p0g%3C%2F-%3E&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=qtqvf%60qtqvf&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=unxln%22unxln&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 102
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=llxdq%2F%2A&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=nma74%27nma74&newInvoice=TRUE&client_id=202&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 167
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=d5dxh%3C%2F-%3Ed5dxh%2F%2Ad5dxh%22d5dxhd5dxh%27d5dxhd5dxh%60d5dxhd5dxh%20%3D&newInvoice=TRUE&client_id=479&newClient=56
+GET http://bellog.org/bamboo/index.php/utilities HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=kwvwv%22kwvwv&newInvoice=TRUE&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=uyvq1%27uyvq1&newInvoice=TRUE&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 106
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=abl9p%3C%2F-%3E&newInvoice=TRUE&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 104
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=b4zns%60b4zns&newInvoice=TRUE&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 102
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=n6zbe%20%3D&newInvoice=TRUE&client_id=479&newClient=56
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 102
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+createInvoice=Create%20Invoice&newinvoicecancel=tgir0%2F%2A&newInvoice=TRUE&client_id=479&newClient=56
+GET http://bellog.org/bamboo/index.php/utilities/export_excel HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/export_xml HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/database_backup HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/php_info HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/xeoptr_ecxle HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/xeoptr_xlm HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/adatabes_bcaukp HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/hpp_niof HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/logout/confirm HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/logout/logout_routine HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/logout/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/version_check HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/accounts HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/donate HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/588 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1861 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/971 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1613 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/539 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/553 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1783 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1226 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/746 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1048 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1679 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1260 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/893 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/93 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/945 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1186 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1158 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1992 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/87 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/672 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/858 HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/clients HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/newinvoice_first HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/newinvoice HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/newinvoice HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/clients/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1679-01-01/1679-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/clients/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1679-01-01/6197-03-13 HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/588-07-01/588-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/539-01-01/539-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 28
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=overdue&client_id=344
+GET http://bellog.org/bamboo/index.php/reports/dates/1158-07-01/1158-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1861-01-01/1861-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1158-10-01/1158-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1158-01-01/1158-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/553-04-01/553-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1992-07-01/1992-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/893-04-01/893-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/893-04-01/983-60-30 HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1260-07-01/1260-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/672-07-01/672-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/539-10-01/539-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1226-01-01/1226-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 28
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=overdue&client_id=202
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 97
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=nkovv%3C%2F-%3Enkovv%2F%2Ankovv%22nkovvnkovv%27nkovvnkovv%60nkovvnkovv%20%3D&client_id=344
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 97
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=sa3bs%3C%2F-%3Esa3bs%2F%2Asa3bs%22sa3bssa3bs%27sa3bssa3bs%60sa3bssa3bs%20%3D&client_id=202
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 28
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=overdue&client_id=479
+GET http://bellog.org/bamboo/index.php/reports/dates/1992-10-01/1992-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/553-10-01/553-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/945-07-01/945-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 27
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=closed&client_id=344
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 97
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=nubpi%3C%2F-%3Enubpi%2F%2Anubpi%22nubpinubpi%27nubpinubpi%60nubpinubpi%20%3D&client_id=479
+GET http://bellog.org/bamboo/index.php/reports/dates/553-07-01/553-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/539-07-01/539-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/971-01-01/971-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 97
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=gtazz%3C%2F-%3Egtazz%2F%2Agtazz%22gtazzgtazz%27gtazzgtazz%60gtazzgtazz%20%3D&client_id=344
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 27
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=closed&client_id=202
+GET http://bellog.org/bamboo/index.php/invoices/overdue HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1186-10-01/1186-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/672-10-01/672-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/93-01-01/93-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/changelog HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/945-01-01/945-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1992-01-01/1992-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/672-01-01/672-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1679-04-01/1679-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1186-01-01/1186-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/credits HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1783-04-01/1783-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/closed HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 27
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=closed&client_id=479
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 97
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=xcxrm%3C%2F-%3Excxrm%2F%2Axcxrm%22xcxrmxcxrm%27xcxrmxcxrm%60xcxrmxcxrm%20%3D&client_id=202
+GET http://bellog.org/bamboo/index.php/invoices/open HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/all HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1861-10-01/1861-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/view/6 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1226-10-01/1226-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/539-04-01/539-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 97
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=53hr2%3C%2F-%3E53hr2%2F%2A53hr2%2253hr253hr2%2753hr253hr2%6053hr253hr2%20%3D&client_id=479
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 24
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=all&client_id=344
+GET http://bellog.org/bamboo/index.php/reports/dates/1048-01-01/1048-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1260-04-01/1260-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/893-07-01/893-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/588-04-01/588-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/893-01-01/893-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/settings HTTP/1.1
+Referer: http://bellog.org/
+Content-type: multipart/form-data; boundary=b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 3186
+Host: bellog.org
+Accept: */*
+
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="company_name"
+
+Bonsai
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="address1"
+
+Bonsai Street 123
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="address2"
+
+Bonsai Street 123
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="city"
+
+Buenos Aires
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="province"
+
+56
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="country"
+
+Argentina
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="postal_code"
+
+90210
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="website"
+
+http://www.w3af.org/
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="primary_contact"
+
+a
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="primary_contact_email"
+
+a@a.com
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="password"
+
+FrAmE30.
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="password_confirm"
+
+FrAmE30.
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="invoice_note_default"
+
+0
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax_code"
+
+55550178
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="currency_type"
+
+7
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="currency_symbol"
+
+$
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="days_payment_due"
+
+30
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax1_desc"
+
+Hello World
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax1_rate"
+
+0.000
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax2_desc"
+
+Hello World
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax2_rate"
+
+0.000
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="display_branding"
+
+y
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="new_version_autocheck"
+
+y
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="save_invoices"
+
+y
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="Submit"
+
+Save Settings
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="userfile"; filename="RPMAOmP.gif"
+Content-Type: image/gif
+
+GIF89a  €  ÿÿÿÿÿÿ!þïAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ,       D ;
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9--
+
+
+GET http://bellog.org/bamboo/index.php/reports/dates/93-10-01/93-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1613-10-01/1613-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1260-01-01/1260-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/export_excel HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/945-04-01/945-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1226-07-01/1226-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/export_xml HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 97
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=ud9lr%3C%2F-%3Eud9lr%2F%2Aud9lr%22ud9lrud9lr%27ud9lrud9lr%60ud9lrud9lr%20%3D&client_id=344
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 24
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=all&client_id=202
+GET http://bellog.org/bamboo/index.php/utilities/database_backup HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/php_info HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/logout/logout_routine HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1613-04-01/1613-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 97
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=al7jx%3C%2F-%3Eal7jx%2F%2Aal7jx%22al7jxal7jx%27al7jxal7jx%60al7jxal7jx%20%3D&client_id=202
+GET http://bellog.org/bamboo/index.php/reports/dates/1613-04-01/6131-06-03 HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1783-07-01/1783-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1679-07-01/1679-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1226-04-01/1226-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/logout/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1048-07-01/1048-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1186-07-01/1186-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/553-01-01/553-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/93-04-01/93-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/945-10-01/945-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/893-10-01/893-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/971-07-01/971-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/87-10-01/87-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/87-01-01/87-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/588-01-01/588-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 97
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+status=ktvqr%3C%2F-%3Ektvqr%2F%2Aktvqr%22ktvqrktvqr%27ktvqrktvqr%60ktvqrktvqr%20%3D&client_id=479
+GET http://bellog.org/bamboo/index.php/invoices/overdue HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/changelog HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/credits HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/588-10-01/588-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/closed HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/all HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/open HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/view/6 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1861-07-01/1861-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/746-10-01/746-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/version_check HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1260-10-01/1260-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/reports/dates HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 39
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+startDate=2015-10-13&endDate=2015-10-13
+POST http://bellog.org/bamboo/index.php/accounts HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 150
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=John8212&login_credentials=Add%20new%20admin%20account&first_name=John&last_name=John&login_password_confirm=FrAmE30.&login_password=FrAmE30.
+POST http://bellog.org/bamboo/index.php/invoices/newinvoice HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 208
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+items%5B1%5D%5Btaxable%5D=1&items%5B1%5D%5Bamount%5D=0.00&item=56&amount=0.00&client_id=344&invoice_number=7&createInvoice=Create%20Invoice&dateIssued=56&items%5B1%5D%5Bquantity%5D=1&invoice_note=0&quantity=1
+GET http://bellog.org/bamboo/index.php HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/settings HTTP/1.1
+Referer: http://bellog.org/
+Content-type: multipart/form-data; boundary=b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 2843
+Host: bellog.org
+Accept: */*
+
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="company_name"
+
+Bonsai
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="address1"
+
+Bonsai Street 123
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="address2"
+
+Bonsai Street 123
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="city"
+
+Buenos Aires
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="province"
+
+56
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="country"
+
+Argentina
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="postal_code"
+
+90210
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="website"
+
+http://www.w3af.org/
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="primary_contact"
+
+a
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="primary_contact_email"
+
+a@a.com
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="password"
+
+
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="password_confirm"
+
+
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="invoice_note_default"
+
+0
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax_code"
+
+55550178
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="currency_type"
+
+7
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="currency_symbol"
+
+$
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="days_payment_due"
+
+30
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax1_desc"
+
+Hello World
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax1_rate"
+
+0.000
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax2_desc"
+
+Hello World
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax2_rate"
+
+0.000
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="userfile"
+
+
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="display_branding"
+
+y
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="new_version_autocheck"
+
+y
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="save_invoices"
+
+y
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="Submit"
+
+Save Settings
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9--
+
+
+GET http://bellog.org/bamboo/index.php/utilities/export_excel HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/export_xml HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/settings HTTP/1.1
+Referer: http://bellog.org/
+Content-type: multipart/form-data; boundary=b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 3236
+Host: bellog.org
+Accept: */*
+
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="company_name"
+
+4eeev</->4eeev/*4eeev"4eeev4eeev'4eeev4eeev`4eeev4eeev =
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="address1"
+
+Bonsai Street 123
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="address2"
+
+Bonsai Street 123
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="city"
+
+Buenos Aires
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="province"
+
+56
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="country"
+
+Argentina
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="postal_code"
+
+90210
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="website"
+
+http://www.w3af.org/
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="primary_contact"
+
+a
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="primary_contact_email"
+
+a@a.com
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="password"
+
+FrAmE30.
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="password_confirm"
+
+FrAmE30.
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="invoice_note_default"
+
+0
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax_code"
+
+55550178
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="currency_type"
+
+7
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="currency_symbol"
+
+$
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="days_payment_due"
+
+30
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax1_desc"
+
+Hello World
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax1_rate"
+
+0.000
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax2_desc"
+
+Hello World
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="tax2_rate"
+
+0.000
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="display_branding"
+
+y
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="new_version_autocheck"
+
+y
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="save_invoices"
+
+y
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="Submit"
+
+Save Settings
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9
+Content-Disposition: form-data; name="userfile"; filename="RPMAOmP.gif"
+Content-Type: image/gif
+
+GIF89a  €  ÿÿÿÿÿÿ!þïAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA ,       D ;
+--b08c02-53d780-e2bc43-1d5278-a3c0d9-a5c0d9--
+
+
+GET http://bellog.org/bamboo/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/database_backup HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/utilities/php_info HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/logout/logout_routine HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/invoices/notes/6 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 12
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+close=Cancel
+GET http://bellog.org/bamboo/index.php/logout/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/invoices/payment HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 91
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+payment_note=56&date_paid=2015-10-13&amount=7&close=Cancel&makePayment=Enter%20Payment&id=6
+GET http://bellog.org/bamboo/index.php/reports/dates/746-04-01/746-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1783-01-01/1783-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/invoices/email/6 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 29
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+isAjax=false&invoice_number=6
+GET http://bellog.org/bamboo/index.php/invoices/email/9 HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/746-01-01/746-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1613-01-01/1613-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1186-04-01/1186-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/672-04-01/672-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1861-04-01/1861-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1158-04-01/1158-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1992-04-01/1992-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/reports/dates HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 39
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+startDate=2015-10-13&endDate=2015-10-13
+POST http://bellog.org/bamboo/index.php/accounts HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 118
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=&login_credentials=Add%20new%20admin%20account&first_name=&last_name=&login_password_confirm=&login_password=
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 128
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+website=&province=&city=&address1=&address2=&createClient=Save%20Client&tax_code=&tax_status=1&postal_code=&country=&clientName=
+POST http://bellog.org/bamboo/index.php/clients/newclient HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 128
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+website=&province=&city=&address1=&address2=&createClient=Save%20Client&tax_code=&tax_status=0&postal_code=&country=&clientName=
+GET http://bellog.org/bamboo/index.php/reports/index/120 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1048-04-01/1048-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/971-04-01/971-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/522 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/93-07-01/93-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/746-07-01/746-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/87-07-01/87-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/583 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1783-10-01/1783-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1012 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/389 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/859 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 111
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+first_name=&last_name=&createClient=Add%20Contact&phone=&client_contact_id=&close=Cancel%20Add%20Contact&email=
+GET http://bellog.org/bamboo/index.php/reports/index/115 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/invoices/newinvoice HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 204
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+items%5B1%5D%5Btaxable%5D=1&items%5B1%5D%5Bamount%5D=0.00&item=&amount=0.00&client_id=344&invoice_number=7&createInvoice=Create%20Invoice&dateIssued=&items%5B1%5D%5Bquantity%5D=1&invoice_note=0&quantity=1
+POST http://bellog.org/bamboo/index.php/invoices/notes/6 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 12
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+close=Cancel
+POST http://bellog.org/bamboo/index.php/invoices/payment HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 88
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+payment_note=&date_paid=2015-10-13&amount=&close=Cancel&makePayment=Enter%20Payment&id=6
+POST http://bellog.org/bamboo/index.php/invoices/email/6 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 29
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+isAjax=false&invoice_number=6
+POST http://bellog.org/bamboo/index.php/accounts HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 150
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=John8212&login_credentials=Add%20new%20admin%20account&first_name=John&last_name=John&login_password_confirm=FrAmE30.&login_password=FrAmE30.
+POST http://bellog.org/bamboo/index.php/invoices/newinvoice HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 206
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+items%5B1%5D%5Btaxable%5D=1&items%5B1%5D%5Bamount%5D=0.00&item=&amount=0.00&client_id=344&invoice_number=7&createInvoice=Create%20Invoice&dateIssued=56&items%5B1%5D%5Bquantity%5D=1&invoice_note=0&quantity=1
+GET http://bellog.org/bamboo/index.php/reports/dates/1679-10-01/1679-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1181 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1421 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/646 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1613-07-01/1613-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1012-01-01/1012-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/532 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/971-10-01/971-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1269 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/522-10-01/522-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/120-01-01/120-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/646-04-01/646-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/859-01-01/859-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/87-04-01/87-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/646-01-01/646-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/115-07-01/115-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1273 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1269-04-01/1269-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1181-01-01/1181-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/115-10-01/115-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/467 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1346 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1048-10-01/1048-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/76 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/925 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1585 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1019 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/380 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/925-01-01/925-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/380-04-01/380-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/859-07-01/859-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/467-01-01/467-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/467-04-01/467-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1346-07-01/1346-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/76-10-01/76-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/583-10-01/583-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1181-10-01/1181-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/389-01-01/389-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/646-07-01/646-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1421-04-01/1421-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1421-01-01/1421-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/120-07-01/120-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1585-01-01/1585-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1181-04-01/1181-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/522-04-01/522-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1585-10-01/1585-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/380-07-01/380-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/522-07-01/522-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1012-10-01/1012-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/532-04-01/532-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/532-10-01/532-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/532-01-01/532-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/76-01-01/76-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1585-04-01/1585-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1012-07-01/1012-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/522-01-01/522-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/login HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 29
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=a%40a.com&password=s
+GET http://bellog.org/bamboo/index.php/reports/dates/1346-04-01/1346-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1019-10-01/1019-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/120-04-01/120-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/859-10-01/859-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1273-10-01/1273-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/389-07-01/389-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/76-07-01/76-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1012-04-01/1012-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1273-01-01/1273-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1269-10-01/1269-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1273-04-01/1273-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/532-07-01/532-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/467-10-01/467-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/389-04-01/389-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1421-07-01/1421-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/583-04-01/583-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/646-10-01/646-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1269-07-01/1269-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1346-01-01/1346-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1585-07-01/1585-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1181-07-01/1181-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/115-04-01/115-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1273-07-01/1273-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/76-04-01/76-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/583-07-01/583-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/120-10-01/120-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/583-01-01/583-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/380-01-01/380-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/925-04-01/925-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1346-10-01/1346-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/666 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/389-10-01/389-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/115-01-01/115-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/850 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1019-04-01/1019-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/859-04-01/859-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1188 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/112 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1401 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1704 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1742 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1421-10-01/1421-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1432 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/index/1576 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+POST http://bellog.org/bamboo/index.php/login HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 29
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+username=a%40a.com&password=s
+GET http://bellog.org/bamboo/index.php/reports/index/387 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/2015-07-01/2015-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1019-07-01/1019-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/2015-07-01/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/XtEGuUuS/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/2015-10-01/2015-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1269-01-01/1269-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/2015-10-01/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/467-07-01/467-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/2015-04-01/2015-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/2015-04-01/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/2015-01-01/2015-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/2015-01-01/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1742-04-01/1742-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/invoices/ HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/925-10-01/925-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/925-07-01/925-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1019-01-01/1019-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/666-10-01/666-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1576-07-01/1576-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/380-10-01/380-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1704-04-01/1704-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/850-04-01/850-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1742-01-01/1742-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/ HTTP/1.1
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/112-07-01/112-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1432-04-01/1432-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1576-10-01/1576-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1401-10-01/1401-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/387-04-01/387-06-30 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1188-07-01/1188-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/666-01-01/666-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1401-07-01/1401-09-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1401-01-01/1401-03-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+
+GET http://bellog.org/bamboo/index.php/reports/dates/1704-10-01/1704-12-31 HTTP/1.1
+Referer: http://bellog.org/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: bellog.org
+Accept: */*
+

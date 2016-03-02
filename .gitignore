@@ -2,6 +2,3 @@
 .metadata/
 .project
 .pydevproject
-database_backups
-tests
-results
