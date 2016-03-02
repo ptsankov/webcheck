@@ -1,0 +1,53 @@
+#wordpress script
+plugins
+output console,text_file
+output config text_file
+set output_file output-w3af.txt
+set http_output_file output-w3af-http.txt
+set verbose True
+back
+output config console
+set verbose False
+back
+
+#audit xss
+
+crawl web_spider
+crawl config web_spider
+set only_forward True
+set ignore_regex .*Logout.*|.*logout.*|.*UserAdmin.*
+set follow_regex http://bellog.org/gallery/.*
+back
+
+auth detailed
+auth config detailed
+set username admin
+set password password
+set username_field g2_form[username]
+set password_field g2_form[password]
+set data_format g2_return=/gallery/main.php?&g2_formUrl=/gallery/main.php?g2_view=core.UserAdmin&g2_subView=core.UserLogin&g2_authToken=865cb4d33783&g2_controller=core.UserLogin&g2_form[formName]=UserLogin&g2_form[action][login]=Login&%u=%U&%p=%P
+set auth_url http://bellog.org/gallery/main.php
+set method POST
+set check_url http://bellog.org/gallery/main.php
+set check_string 'Logout'
+set follow_redirects True
+back
+
+# from plugin
+back
+
+misc-settings
+set max_discovery_time 1
+back
+
+
+target
+set target http://bellog.org/gallery/main.php
+back
+
+start
+
+exit
+
+
+
