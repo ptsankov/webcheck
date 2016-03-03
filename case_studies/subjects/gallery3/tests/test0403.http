@@ -1,21 +1,49 @@
-GET http://bellog.org/gallery/main.php HTTP/1.1
+GET http://127.0.0.1/gallery/main.php HTTP/1.1
 Accept-encoding: gzip, deflate
 User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
+Host: 127.0.0.1
 Accept: */*
 
-POST http://bellog.org/gallery/main.php HTTP/1.1
+POST http://127.0.0.1/gallery/main.php HTTP/1.1
 Accept-encoding: gzip, deflate
 User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
 Content-length: 277
 Content-type: application/x-www-form-urlencoded
-Host: bellog.org
+Host: 127.0.0.1
 Accept: */*
 
 g2_return=/gallery/main.php?&g2_formUrl=/gallery/main.php?g2_view=core.UserAdmin&g2_subView=core.UserLogin&g2_authToken=865cb4d33783&g2_controller=core.UserLogin&g2_form[formName]=UserLogin&g2_form[action][login]=Login&g2_form%5Busername%5D=admin&g2_form%5Bpassword%5D=password
-GET http://bellog.org/gallery/main.php HTTP/1.1
+GET http://127.0.0.1/gallery/main.php HTTP/1.1
 Accept-encoding: gzip, deflate
 User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/gallery/main.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+POST http://127.0.0.1/gallery/main.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 596
+Content-type: application/x-www-form-urlencoded
+Host: 127.0.0.1
+Accept: */*
+
+g2_return=%2Fgallery%2Fmain.php&g2_form%5BformName%5D=SearchScan&g2_controller=search.SearchScan&g2_formUrl=%2Fgallery%2Fmain.php%3Fg2_view%3Dsearch.SearchScan%26g2_form%255BuseDefaultSettings%255D%3D1&g2_form%5Boptions%5D%5BGalleryCoreSearch%5D%5Bkeywords%5D=&g2_form%5Boptions%5D%5BGalleryCoreSearch%5D%5Bsummaries%5D=&g2_form%5BsearchCriteria%5D=Hello%20World&g2_authToken=52f769b51225&g2_form%5Baction%5D%5Bsearch%5D=Search&g2_form%5Boptions%5D%5BGalleryCoreSearch%5D%5Bdescriptions%5D=&g2_form%5Boptions%5D%5Bcomment%5D%5Bcomments%5D=&g2_form%5Boptions%5D%5BGalleryCoreSearch%5D%5Btitles%5D=
+GET http://127.0.0.1/gallery/main.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: 127.0.0.1
 Accept: */*
 

@@ -1,120 +1,146 @@
-GET http://bellog.org/oscommerce/index.php HTTP/1.1
+GET http://127.0.0.1/oscommerce/index.php HTTP/1.1
 Accept-encoding: gzip, deflate
 User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
+Host: 127.0.0.1
 Accept: */*
 
-GET http://bellog.org/oscommerce/2uOT4DsK.py HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/tLo5Vh3i.jsp HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/KVl4hbyj.htmls HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/aG87Ic5K.rb HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/QNlgz0ui.foobar HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/2y68zq9F.asp HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/TMnT1cm2.htm HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/hF3F7XS0.cgi HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/pzkKRlw5.php HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/0GbSQED9.aspx HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/V8pBmNEu.do HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/1E7I7Wbx.xhtml HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/o2FVdeJ8.gif HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/pvhKlUN6.pl HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/index.php HTTP/1.1
-Accept-encoding: gzip, deflate
-User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
-Accept: */*
-
-GET http://bellog.org/oscommerce/index.php HTTP/1.1
+GET http://127.0.0.1/oscommerce/index.php HTTP/1.1
 Accept-encoding: gzip, deflate
 User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
 Content-length: 0
 Content-type: application/x-www-form-urlencoded
-Host: bellog.org
+Host: 127.0.0.1
 Accept: */*
 
-GET http://bellog.org/oscommerce/ HTTP/1.1
-Referer: http://bellog.org/
+GET http://127.0.0.1/oscommerce/account.php HTTP/1.1
+Referer: http://127.0.0.1/
 Accept-encoding: gzip, deflate
 User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
-Host: bellog.org
+Host: 127.0.0.1
 Accept: */*
 
-GET http://bellog.org/oscommerce/ HTTP/1.1
-Referer: http://bellog.org/
+GET http://127.0.0.1/oscommerce/checkout_shipping.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/shopping_cart.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/create_account.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/ HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/contact_us.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/specials.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/login.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/shipping.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/advanced_search_result.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/products_new.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/privacy.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/conditions.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/reviews.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/advanced_search.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/account.php HTTP/1.1
+Referer: http://127.0.0.1/
 Accept-encoding: gzip, deflate
 User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
 Content-length: 0
 Content-type: application/x-www-form-urlencoded
-Host: bellog.org
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/shopping_cart.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: 127.0.0.1
+Accept: */*
+
+GET http://127.0.0.1/oscommerce/create_account.php HTTP/1.1
+Referer: http://127.0.0.1/
+Accept-encoding: gzip, deflate
+User-agent: Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1; Trident/4.0; w3af.org)
+Content-length: 0
+Content-type: application/x-www-form-urlencoded
+Host: 127.0.0.1
 Accept: */*
 
