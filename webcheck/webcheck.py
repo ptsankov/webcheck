@@ -7,11 +7,8 @@ from os import path
 import socket
 import requests
 import shlex
-import time
 from subprocess import PIPE, Popen
 #import MySQLdb
-import time
-from collections import OrderedDict
 from symbol import parameters
 import random
 
@@ -22,69 +19,25 @@ def output(line):
 def parse_test_file(file):
     requests = []
     with open(file) as f:
-        content = f.readlines()
         request = None
-        in_request = False
-        for line in content:
-            line = line.replace('bellog.org', application_ip)
-            if line.startswith('========================================Response'):
-                in_request = False    
-                if request.startswith('GET'):
-                    request = request.strip() + '\r\n\r\n'
-                requests.append(request)
-            if in_request and not line.startswith('Cookie'):
-                request += line.strip() + '\r\n'
-            if line.startswith('========================================Request'):
-                in_request = True
-                request = ''            
-    return requests
-
-def white_list(log_file):
-    list = []    
-    with open(log_file) as f:
-        content = f.readlines()
-        read = False
-        for log_line in content:
-            log_line = log_line.strip()
-            if 'The following is a list of broken links that were found' in log_line:
-                read = True
-            elif 'The list of fuzzable requests is' in log_line:
-                read = False
-            elif 'information' not in log_line:
-                continue
-            elif 'different injections points' in log_line:
-                continue
-            elif 'The URL list is' in log_line:
-                read = True
-                continue
-            elif read:
-                request = log_line.split('] - ')[1].split(' ')[0]
-                list.append(request)
+        for line in f.readlines():
+            if line.startswith('GET http://'):
+                if request is not None:
+                    requests.append(request)
+                request = line.strip() + '\r\n\r\n'
+            elif line.startswith('POST http://'):
+                if request is not None:
+                    requests.append(request)
+                request = line
             else:
-                pass
-    return list
-
-def filter_test(test, filter_extensions, allowed_urls):
-    filtered_requests = []
-    for request in test:
-        url = request.split(' ')[1]
-        #if url.split('.')[-1] in filter_extensions:
-        if True in [x in url for x in filter_extensions]:
-            continue
-        if remove_duplicates and request in filtered_requests:
-            continue
-        if url not in allowed_urls:
-            continue
-        filtered_requests.append(request)
-    return filtered_requests
+                request += line.strip() + '\r\n'            
+    return requests
 
 def read_tests(path_to_tests):
     tests = []
-    for test_file in glob.glob(path.join(path_to_tests, '*_http.txt')):
+    for test_file in glob.glob(path.join(path_to_tests, '*.http')):
         test = parse_test_file(test_file)
-        allowed_urls = white_list(test_file.replace('http', 'log'))
-        filtered_test = filter_test(test, filter_extensions, allowed_urls)[:test_length]
-        tests.append(filtered_test)
+        tests.append(test)
     print 'read', len(tests), 'tests'
     return tests
         
