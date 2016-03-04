@@ -6,25 +6,10 @@ from static import INSTRUMENTATION_SECTION, PROXY_SECTION
 
 
 def php_instrumentation():
-    if sqlFlag:
-        sql_instrumentation = instrument_sql_api()
-    else:
-        sql_instrumentation = ""
-      
-    if fileFlag:
-        file_instrumentation = instrument_file_api()
-    else:
-        file_instrumentation = ""
-      
-    if randomFlag:
-        random_instrumentation = instrument_random_api()
-    else:
-        random_instrumentation = ""
-      
-    if timeFlag:
-        time_instrumentation = instrument_time_api()
-    else:
-        time_instrumentation = ""
+    sql_instrumentation = instrument_sql_api()
+    file_instrumentation = instrument_file_api()     
+    random_instrumentation = instrument_random_api()
+    time_instrumentation = instrument_time_api()
     return sql_instrumentation + file_instrumentation + random_instrumentation + time_instrumentation
   
   
@@ -60,7 +45,7 @@ def instrument_random_api():
 		  $currentVal= (int) fgets($currentValPath);
 		  fclose($currentValPath);
 		  // compute new value
-		  $newRandomVal = $currentVal+1;//(($seed + 2) * $currentVal + ($seed+1)) % ($seed + 3);
+		  $newRandomVal =(($seed + 2) * $currentVal + ($seed+1)) % ($seed + 3);
 		  // update currentValue
 		  $currentValPath = fopen_old("''' + randomSnapshotPath + '''", "w");
 		  fwrite($currentValPath, $newRandomVal);
@@ -116,9 +101,9 @@ def instrument_random_api():
 		  // compute new value
 		  $new_session_id = $session_id+1;
 		  // delete old value if needed
-                  session_regenerate_id_old($delete_old_session);
-                  // set new value in the cookie
-                  session_id_old($new_session_id);
+          session_regenerate_id_old($delete_old_session);
+          // set new value in the cookie
+          session_id_old($new_session_id);
 		  // update currentValue
 		  $sessionValuePath = fopen_old("''' + sessionSnapshotPath + '''", "w");
 		  fwrite($sessionValuePath, $new_session_id);
@@ -254,7 +239,7 @@ def instrument_sql_api():
 
 if __name__ == "__main__":
   
-    global sqlFlag, fileFlag, randomFlag, timeFlag, proxy, fileLogPath, randomSnapshotPath, timeSnapshotPath, randomSeedPath, timeSeedPath, sessionSnapshotPath
+    global proxy, fileLogPath, randomSnapshotPath, timeSnapshotPath, randomSeedPath, timeSeedPath, sessionSnapshotPath
     
     if len(sys.argv) != 2:
         print ('Usage: ' + sys.argv[0] + ' <config file>')
@@ -266,20 +251,16 @@ if __name__ == "__main__":
     app_path = config.get(INSTRUMENTATION_SECTION, 'PATH')
     
     
-    sqlFlag = config.getboolean(INSTRUMENTATION_SECTION, 'SQL_INSTRUMENTATION')
     proxy_ip = config.get(PROXY_SECTION, 'IP')
     proxy_port = config.getint(PROXY_SECTION, 'PORT')
     proxy = '{}:{}'.format(proxy_ip, proxy_port)
     
-    fileFlag = config.getboolean(INSTRUMENTATION_SECTION, 'FILE_INSTRUMENTATION')
     fileLogPath = config.get(INSTRUMENTATION_SECTION, 'ACCESSED_FILES_LOG_PATH')
     
-    randomFlag = config.getboolean(INSTRUMENTATION_SECTION, 'RANDOM_INSTRUMENTATION')
     randomSnapshotPath = config.get(INSTRUMENTATION_SECTION, 'RANDOM_SNAPSHOT_PATH')
     randomSeedPath = config.get(INSTRUMENTATION_SECTION, 'RANDOM_SEED_PATH')
     sessionSnapshotPath = config.get(INSTRUMENTATION_SECTION, 'RANDOM_SESSION_SNAPSHOT_PATH')
     
-    timeFlag = config.getboolean(INSTRUMENTATION_SECTION, 'TIME_INSTRUMENTATION')
     timeSnapshotPath = config.get(INSTRUMENTATION_SECTION, 'TIME_SNAPSHOT_PATH')  
     timeSeedPath = config.get(INSTRUMENTATION_SECTION, 'TIME_SEED_PATH')
         

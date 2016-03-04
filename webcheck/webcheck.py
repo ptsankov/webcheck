@@ -1,6 +1,6 @@
 #!/usr/bin/python
 import sys
-from static import TESTS_SECTION, EXECUTION_SECTION, APPLICATION_SECTION, PROXY_SECTION, DATABASE_SECTION, INSTRUMENTATION_SECTION
+import static
 import ConfigParser
 import glob
 from os import path
@@ -8,7 +8,6 @@ import socket
 import requests
 import shlex
 from subprocess import PIPE, Popen
-#import MySQLdb
 from symbol import parameters
 import random
 import time
@@ -63,47 +62,23 @@ def runcmd(cmd, input=PIPE, output=PIPE, cwd=None):
 def checkpoint(label):
     global current_cookie
     start_time = time.time()
-    
-    
+        
     cookies[label] = current_cookie        
     print 'Checkpointing cookie:', current_cookie, 'for label', label
-    if checkpointing:
-        labels_to_files[label] = {}
-        labels_to_files[label][randomSnapshotPath] = open(randomSnapshotPath, 'r').readlines()[0]
-        labels_to_files[label][randomSeedPath] = open(randomSeedPath, 'r').readlines()[0]
-        labels_to_files[label][timeSnapshotPath] = open(timeSnapshotPath, 'r').readlines()[0]
-        labels_to_files[label][timeSeedPath] = open(timeSeedPath, 'r').readlines()[0]
-        labels_to_files[label][sessionSnapshotPath] = open(sessionSnapshotPath, 'r').readlines()[0]
-        
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sock.connect((proxy_ip, proxy_port))
-        sock.sendall('checkpoint:{}'.format(label))
-        print 'Checkpointing', label, sock.recv(2)        
-    elif vm:
-        runcmd('VBoxManage snapshot webcheck take {} --live'.format(label + '_' + timestamp))
-        runcmd('ssh guestserver.com cat /var/www/html/oscommerce/random_snapshot.txt')
-        runcmd('ssh guestserver.com cat /var/www/html/oscommerce/time_snapshot.txt')
-        print "Sleep for 5 seconds"
-        time.sleep(5)
-    else:
-        dump_file = 'checkpoint_{}'.format(label)
-        #runcmd('mysqldump -u {} -p{} {} {}'.format(db_username, db_password, db_database, ' '.join(table_names)), output=open(dump_file, 'w'))
-        runcmd('mysqldump -u {} -p{} {}'.format(db_username, db_password, db_database), output=open(dump_file, 'w'))
+    labels_to_files[label] = {}
+    labels_to_files[label][randomSnapshotPath] = open(randomSnapshotPath, 'r').readlines()[0]
+    labels_to_files[label][randomSeedPath] = open(randomSeedPath, 'r').readlines()[0]
+    labels_to_files[label][timeSnapshotPath] = open(timeSnapshotPath, 'r').readlines()[0]
+    labels_to_files[label][timeSeedPath] = open(timeSeedPath, 'r').readlines()[0]
+    labels_to_files[label][sessionSnapshotPath] = open(sessionSnapshotPath, 'r').readlines()[0]
+    
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    sock.connect((proxy_ip, proxy_port))
+    sock.sendall('checkpoint:{}'.format(label))
+    print 'Checkpointing', label, sock.recv(2)        
+
     end_time = time.time()
     print 'Checkpoint time:', end_time - start_time    
-
-'''        
-def get_table_names():
-    db_connection = MySQLdb.connect(host=db_host, user=db_username, passwd=db_password, db=db_database)
-    cursor = db_connection.cursor()    
-    
-    query_table_names = 'show tables like "{}%"'.format(db_tables_prefix)    
-    cursor.execute(query_table_names)
-    table_names_result = cursor.fetchall()
-    table_names = [x[0] for x in table_names_result]
-    return table_names
-'''
-
     
 def restore(label):
     global current_cookie
@@ -111,31 +86,17 @@ def restore(label):
     current_cookie = cookies[label]
     print 'Restored cookie', current_cookie
     print 'restoring'
+        
+    for f in labels_to_files[label].keys():
+        fd = open(f, 'w')
+        fd.write(labels_to_files[label][f])
+        fd.close()
     
-    
-    if checkpointing:
-        
-        
-        for f in labels_to_files[label].keys():
-            fd = open(f, 'w')
-            fd.write(labels_to_files[label][f])
-            fd.close()
-        
-        sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        sock.connect((proxy_ip, proxy_port))
-        sock.sendall('restore:{}'.format(label))
-        print 'Restoring', label, sock.recv(2)
-    elif vm:
-        runcmd('VBoxManage controlvm webcheck poweroff')
-        runcmd('VBoxManage snapshot webcheck restore {}'.format(label + '_' + timestamp))
-        runcmd('VBoxManage startvm webcheck --type headless')
-        print "Sleep for 30 seconds"
-        time.sleep(30)
-        runcmd('ssh guestserver.com cat /var/www/html/oscommerce/random_snapshot.txt')
-        runcmd('ssh guestserver.com cat /var/www/html/oscommerce/time_snapshot.txt')
-    else:
-        dump_file = 'checkpoint_{}'.format(label)
-        runcmd('mysql -u {} -p{} {}'.format(db_username, db_password, db_database, dump_file), input='source {}'.format(dump_file))
+    sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+    sock.connect((proxy_ip, proxy_port))
+    sock.sendall('restore:{}'.format(label))
+    print 'Restoring', label, sock.recv(2)
+
     print 'done restoring'
     end_time = time.time()
 
@@ -164,9 +125,7 @@ def execute_request(request, test_id, counter):
         if 'set-cookie' in response.headers.keys():
             cookies = response.headers['set-cookie']
             current_cookie = '; '.join([cookie.split(';')[0] for cookie in cookies.split('\n')])
-            print 'current_cookie', current_cookie
-            #print 'reexecute the request'
-            #execute_request(request, test_id, counter)             
+            print 'current_cookie', current_cookie            
         print response.status_code
     else:
         (url, headers) = parse_request(request.split('\r\n\r\n')[0])
@@ -174,12 +133,7 @@ def execute_request(request, test_id, counter):
             headers['Cookie'] = current_cookie            
         if (request.split('\r\n\r\n')) > 0:
             key_value_pairs = request.split('\r\n\r\n')[1].strip()
-            #parameters = OrderedDict()
             parameters = key_value_pairs
-            #for key_value in key_value_pairs.split('&'):
-            #    key = key_value.split('=')[0]
-            #    value = key_value.split('=')[1]
-            #    parameters[key] = value
         print 'POST', url
         print '\n'.join([str(k) + ':' + headers[k] for k in headers.keys()])
         print parameters
@@ -188,29 +142,15 @@ def execute_request(request, test_id, counter):
         if 'set-cookie' in response.headers.keys():
             cookies = response.headers['set-cookie']
             current_cookie = '; '.join([cookie.split(';')[0] for cookie in cookies.split('\n')])
-            print 'current_cookie', current_cookie
-            #print 'reexecute the request'
-            #execute_request(request, test_id, counter)             
+            print 'current_cookie', current_cookie        
         print response.status_code
     if log:
         out = open(response_log + '_' + str(test_id) + '_' + str(counter) + '.log', 'w')
         out.write('\n'.join([str(k) + ':' + response.headers[k] for k in response.headers.keys()]))
         out.write(response.content)
         out.close()
-        if vm:
-            cmd = 'ssh {} mysqldump -u {} -p{} {} --result-file=/tmp/dump.sql'.format(db_host, db_username, db_password, db_database)
-            runcmd(cmd)
-            cmd = 'scp {}:/tmp/dump.sql {}'.format(db_host, database_log + '_' + str(test_id) + '_' + str(counter) + '.sql')
-            runcmd(cmd)
-        else:
-            cmd = 'mysqldump -u {} -p{} {} --result-file={}'.format(db_username, db_password, db_database, database_log + '_' + str(test_id) + '_' + str(counter) + '.sql')
-            runcmd(cmd)
-
-#    sock = socket.socket()
-#    sock.connect((application_ip, application_port))    
-#    sock.send(request)    
-#    sock.recv(4096)
-
+        cmd = 'mysqldump -u {} -p{} {} --result-file={}'.format(db_username, db_password, db_database, database_log + '_' + str(test_id) + '_' + str(counter) + '.sql')
+        runcmd(cmd)
 
 def num_edges(trie):
     if len(trie.keys()) == 0:
@@ -307,10 +247,8 @@ def measure_test_suites(tests):
     output('Number of checkpoints' + str(sum([len([q for q in test if q.startswith('checkpoint')]) for test in optimized_tests])))
 
 if __name__ == "__main__":
-    global remove_duplicates, test_length, filter_extensions, \
-        checkpointing, application_ip, application_port, proxy_ip, proxy_port, \
-        db_host, db_username, db_password, db_database, number_of_result_tables, \
-        output_file, cookie, response_log, database_log, log, vm, cookies, current_cookie, \
+    global proxy_ip, proxy_port, db_host, db_username, db_password, db_database, number_of_result_tables, \
+        output_file, response_log, database_log, log, cookies, current_cookie, \
         labels_to_files, sessionSnapshotPath, timestamp
         
     timestamp = str(random.randint(1,10000000000))
@@ -326,87 +264,49 @@ if __name__ == "__main__":
     current_cookie = None
     
     labels_to_files = {}
-        
-        
+
     config_file = sys.argv[1]        
     config = ConfigParser.ConfigParser()
     config.read(config_file)
-    path_to_tests = config.get(TESTS_SECTION, 'PATH')
-    remove_duplicates = config.getboolean(TESTS_SECTION, 'REMOVE_DUPLICATES')
-    test_length = config.getint(TESTS_SECTION, 'TEST_LENGTH')
-    filter_extensions  = config.get(TESTS_SECTION, 'FILTER_EXTENSIONS').split(',')
-    cookie  = config.get(TESTS_SECTION, 'COOKIE')
+    path_to_tests = config.get(static.TESTS_SECTION, 'PATH')
     
-    fileFlag = config.getboolean(INSTRUMENTATION_SECTION, 'FILE_INSTRUMENTATION')
-    fileLogPath = config.get(INSTRUMENTATION_SECTION, 'ACCESSED_FILES_LOG_PATH')
+    fileFlag = config.getboolean(static.INSTRUMENTATION_SECTION, 'FILE_INSTRUMENTATION')
+    fileLogPath = config.get(static.INSTRUMENTATION_SECTION, 'ACCESSED_FILES_LOG_PATH')
     
-    randomFlag = config.getboolean(INSTRUMENTATION_SECTION, 'RANDOM_INSTRUMENTATION')
-    randomSnapshotPath = config.get(INSTRUMENTATION_SECTION, 'RANDOM_SNAPSHOT_PATH')
-    randomSeedPath = config.get(INSTRUMENTATION_SECTION, 'RANDOM_SEED_PATH')
+    randomFlag = config.getboolean(static.INSTRUMENTATION_SECTION, 'RANDOM_INSTRUMENTATION')
+    randomSnapshotPath = config.get(static.INSTRUMENTATION_SECTION, 'RANDOM_SNAPSHOT_PATH')
+    randomSeedPath = config.get(static.INSTRUMENTATION_SECTION, 'RANDOM_SEED_PATH')
     
-    timeFlag = config.getboolean(INSTRUMENTATION_SECTION, 'TIME_INSTRUMENTATION')
-    timeSnapshotPath = config.get(INSTRUMENTATION_SECTION, 'TIME_SNAPSHOT_PATH')  
-    timeSeedPath = config.get(INSTRUMENTATION_SECTION, 'TIME_SEED_PATH')
-    sessionSnapshotPath = config.get(INSTRUMENTATION_SECTION, 'RANDOM_SESSION_SNAPSHOT_PATH')
+    timeFlag = config.getboolean(static.INSTRUMENTATION_SECTION, 'TIME_INSTRUMENTATION')
+    timeSnapshotPath = config.get(static.INSTRUMENTATION_SECTION, 'TIME_SNAPSHOT_PATH')  
+    timeSeedPath = config.get(static.INSTRUMENTATION_SECTION, 'TIME_SEED_PATH')
+    sessionSnapshotPath = config.get(static.INSTRUMENTATION_SECTION, 'RANDOM_SESSION_SNAPSHOT_PATH')
         
+    output_filename = config.get(static.EXECUTION_SECTION, 'OUTPUT')
+    response_log = config.get(static.EXECUTION_SECTION, 'RESPONSE_LOG')
+    database_log = config.get(static.EXECUTION_SECTION, 'DATABASE_LOG')
+    log = config.getboolean(static.EXECUTION_SECTION, 'LOG')    
     
-    isolation = config.getboolean(EXECUTION_SECTION, 'ISOLATION')
-    optimize_tests = config.getboolean(EXECUTION_SECTION, 'OPTIMIZE_TESTS')
-    checkpointing = config.getboolean(EXECUTION_SECTION, 'CHECKPOINTING')
-    vm = config.getboolean(EXECUTION_SECTION, 'VM')
-    output_filename = config.get(EXECUTION_SECTION, 'OUTPUT')
-    response_log = config.get(EXECUTION_SECTION, 'RESPONSE_LOG')
-    database_log = config.get(EXECUTION_SECTION, 'DATABASE_LOG')
-    log = config.getboolean(EXECUTION_SECTION, 'LOG')    
+    proxy_ip = config.get(static.PROXY_SECTION, 'IP')
+    proxy_port = config.getint(static.PROXY_SECTION, 'PORT')
     
-    application_ip = config.get(APPLICATION_SECTION, 'IP')
-    application_port = config.getint(APPLICATION_SECTION, 'PORT')
+    db_host = config.get(static.DATABASE_SECTION, 'HOST')
+    db_username = config.get(static.DATABASE_SECTION, 'USERNAME')
+    db_password = config.get(static.DATABASE_SECTION, 'PASSWORD')
+    db_database = config.get(static.DATABASE_SECTION, 'DATABASE')    
     
-    proxy_ip = config.get(PROXY_SECTION, 'IP')
-    proxy_port = config.getint(PROXY_SECTION, 'PORT')
-    
-    db_host = config.get(DATABASE_SECTION, 'HOST')
-    db_username = config.get(DATABASE_SECTION, 'USERNAME')
-    db_password = config.get(DATABASE_SECTION, 'PASSWORD')
-    db_database = config.get(DATABASE_SECTION, 'DATABASE')    
-#    db_tables_prefix = config.get(DATABASE_SECTION, 'TABLES_PREFIX')
-    
-    #table_names = get_table_names()
     output_file = open(output_filename, 'a')
     
-
     tests = read_tests(path_to_tests)
-    #tests = [['a', 'b', 'c', 'd'], ['a', 'b', 'c', 'e'], ['a', 'f'] ]
-
+    
     measure_test_suites(tests)
     
-    if isolation:
-        if optimize_tests:
-            tests = transform_tests(tests)
-            print 'Optimized tests size', sum([len(test) for test in tests])
-        else:            
-            tests = isolate_tests(tests)
-            print 'Isolated tests size', sum([len(test) for test in tests])
-    if vm:
-        runcmd('VBoxManage startvm webcheck --type headless')
-        print "Sleep for 30 seconds"
-        time.sleep(30)
-    if checkpointing:
-        # set isolation level to read uncommitted (for proxy)
-        runcmd('mysql -u {} -p{} {}'.format(db_username, db_password, db_database), input='set global transaction isolation level read uncommitted;')    
-
-    if checkpoint:
-        checkpoint('start')
-            
-    run_tests(tests)
-        
-    if checkpoint:
-        restore('start')
-    if vm:
-        restore('init')
-        runcmd('VBoxManage controlvm webcheck poweroff')
-        
+    tests = transform_tests(tests)
+    print 'Optimized tests size', sum([len(test) for test in tests])
     
-    if vm:
-        cmd = 'VBoxManage snapshot webcheck list | grep -v "init" | awk -F \' \' \'{print $4}\' | sed \'s/)//\' | tac | while read id; do echo $id; VBoxManage snapshot webcheck delete $id; done;'
-        runcmd(cmd)
+    # set isolation level to read uncommitted (for proxy)
+    runcmd('mysql -u {} -p{} {}'.format(db_username, db_password, db_database), input='set global transaction isolation level read uncommitted;')    
+
+    checkpoint('start')            
+    run_tests(tests)        
+    restore('start')
