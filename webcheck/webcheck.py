@@ -72,6 +72,11 @@ def checkpoint(label):
     labels_to_files[label][timeSeedPath] = open(timeSeedPath, 'r').readlines()[0]
     labels_to_files[label][sessionSnapshotPath] = open(sessionSnapshotPath, 'r').readlines()[0]
     
+    labels_to_files[label][fileLogPath] = open(fileLogPath, 'r').readlines()
+    
+    for f in labels_to_files[label][fileLogPath]:
+        labels_to_files[label][f] = open(f, 'r').readlines()
+    
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.connect((proxy_ip, proxy_port))
     sock.sendall('checkpoint:{}'.format(label))
@@ -249,7 +254,9 @@ def measure_test_suites(tests):
 if __name__ == "__main__":
     global proxy_ip, proxy_port, db_host, db_username, db_password, db_database, number_of_result_tables, \
         output_file, response_log, database_log, log, cookies, current_cookie, \
-        labels_to_files, sessionSnapshotPath, timestamp
+        labels_to_files, sessionSnapshotPath, timestamp, fileLogPath, randomSnapshotPath, randomSeedPath, \
+        timeSnapshotPath, timeSeedPath
+        
         
     timestamp = str(random.randint(1,10000000000))
         
@@ -270,14 +277,11 @@ if __name__ == "__main__":
     config.read(config_file)
     path_to_tests = config.get(static.TESTS_SECTION, 'PATH')
     
-    fileFlag = config.getboolean(static.INSTRUMENTATION_SECTION, 'FILE_INSTRUMENTATION')
     fileLogPath = config.get(static.INSTRUMENTATION_SECTION, 'ACCESSED_FILES_LOG_PATH')
     
-    randomFlag = config.getboolean(static.INSTRUMENTATION_SECTION, 'RANDOM_INSTRUMENTATION')
     randomSnapshotPath = config.get(static.INSTRUMENTATION_SECTION, 'RANDOM_SNAPSHOT_PATH')
     randomSeedPath = config.get(static.INSTRUMENTATION_SECTION, 'RANDOM_SEED_PATH')
     
-    timeFlag = config.getboolean(static.INSTRUMENTATION_SECTION, 'TIME_INSTRUMENTATION')
     timeSnapshotPath = config.get(static.INSTRUMENTATION_SECTION, 'TIME_SNAPSHOT_PATH')  
     timeSeedPath = config.get(static.INSTRUMENTATION_SECTION, 'TIME_SEED_PATH')
     sessionSnapshotPath = config.get(static.INSTRUMENTATION_SECTION, 'RANDOM_SESSION_SNAPSHOT_PATH')
