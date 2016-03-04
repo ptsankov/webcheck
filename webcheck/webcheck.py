@@ -72,10 +72,10 @@ def checkpoint(label):
     labels_to_files[label][timeSeedPath] = open(timeSeedPath, 'r').readlines()[0]
     labels_to_files[label][sessionSnapshotPath] = open(sessionSnapshotPath, 'r').readlines()[0]
     
-    labels_to_files[label][fileLogPath] = open(fileLogPath, 'r').readlines()
+    labels_to_files[label][fileLogPath] = ''.join(open(fileLogPath, 'r').readlines())
     
-    for f in labels_to_files[label][fileLogPath]:
-        labels_to_files[label][f] = open(f, 'r').readlines()
+    for f in open(fileLogPath, 'r').readlines():
+        labels_to_files[label][f] = ''.join(open(f, 'r').readlines())
     
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.connect((proxy_ip, proxy_port))
