@@ -11,6 +11,7 @@ from subprocess import PIPE, Popen
 #import MySQLdb
 from symbol import parameters
 import random
+import time
 
 def output(line):
     print 'OUTPUT: {}'.format(line)
