@@ -25,7 +25,8 @@ def parse_test_file(file):
                 if request is not None:
                     if request.startswith('GET'):
                         request = request.strip() + '\r\n\r\n'
-                    requests.append(request)                
+                    requests.append(request)
+                request = line.strip() + '\r\n'
             else:
                 request += line.strip() + '\r\n'         
     return requests
