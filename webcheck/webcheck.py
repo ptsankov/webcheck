@@ -21,16 +21,13 @@ def parse_test_file(file):
     with open(file) as f:
         request = None
         for line in f.readlines():
-            if line.startswith('GET http://'):
+            if line.startswith('GET http://') or line.startswith('POST http://'):
                 if request is not None:
-                    requests.append(request)
-                request = line.strip() + '\r\n\r\n'
-            elif line.startswith('POST http://'):
-                if request is not None:
-                    requests.append(request)
-                request = line
+                    if request.startswith('GET'):
+                        request = request.strip() + '\r\n\r\n'
+                    requests.append(request)                
             else:
-                request += line.strip() + '\r\n'            
+                request += line.strip() + '\r\n'         
     return requests
 
 def read_tests(path_to_tests):
